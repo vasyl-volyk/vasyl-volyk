@@ -1,6 +1,6 @@
 # Vasyl Volyk
-vasyl.volyk@outlook.com
-www.linkedin.com/in/vasylvolyk/
+- vasyl.volyk@outlook.com
+- www.linkedin.com/in/vasylvolyk/
 ## Objective
 Experienced technology professional seeking to leverage my expertise in cloud management, automation, network security, and infrastructure optimization in a dynamic environment.
 
