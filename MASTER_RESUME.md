@@ -42,7 +42,7 @@ Windows/Linux server administration, Active Directory (enterprise-scale), Window
 Advanced PowerShell scripting; Terraform and Bicep for repeatable, secure, and auditable cloud provisioning; CI/CD pipeline design (Azure DevOps, TeamCity, Git); Docker for deployment consistency.
 
 **Network & Cloud Security**
-Enterprise-grade next-generation firewalls (Palo Alto Networks); network security architecture; Zero Trust security principles; Defender for Cloud, Key Vault, cryptography, PKI, identity federation, secure infrastructure hardening.
+Enterprise-grade next-generation firewalls (Palo Alto Networks); network security architecture; Zero Trust security principles; Defender for Cloud, Key Vault, cryptography, PKI, identity federation, secure infrastructure hardening; packet capture and protocol analysis with Wireshark for firewall, DNS, and authentication-flow troubleshooting.
 
 **Monitoring & Observability**
 Azure Monitor, Log Analytics, Application Insights, Microsoft Sentinel; Grafana, Prometheus, Zabbix, SolarWinds, LogicMonitor; proactive alerting, troubleshooting, root cause analysis, NOC/SOC-aligned monitoring and threat visibility.
@@ -55,8 +55,6 @@ Python (FastAPI) web application development; OAuth2/Entra ID app registration a
 
 **Emerging Technologies & Leadership**
 AI-driven tools integrated into infrastructure operations and troubleshooting workflows; leadership of a 7-person infrastructure team; vendor management and equipment procurement; SAFe, ITIL, Agile/Scrum, Waterfall methodologies.
-
-*Note: proficiency levels (expert/proficient/familiar/exposure) not specified per skill — [NEEDS INPUT] if you want these differentiated for tailoring.*
 
 ---
 
@@ -88,6 +86,7 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Administered the Office 365 environment (Exchange Online, Teams, SharePoint), including licensing management, security and compliance policies, and fully automated onboarding/offboarding procedures.
 - Designed, developed, and deployed secure cloud-based systems leveraging Azure best practices to support enterprise operations.
 - Automated infrastructure provisioning and configuration using PowerShell, Terraform, and Bicep, reducing deployment time and human error by approximately 50% while ensuring infrastructure consistency.
+- Performed packet-level network troubleshooting using Wireshark, diagnosing firewall policy issues, DNS resolution failures, and a complex MFA authentication infinite-loop by analyzing captured traffic.
 - Leveraged AI-driven tools and workflows to enhance operational efficiency, improve troubleshooting accuracy, and augment team performance on complex infrastructure challenges.
 - Identified and resolved infrastructure vulnerabilities and application deployment issues through systematic troubleshooting and root cause analysis.
 - Collaborated with engineering, development, and security teams to architect optimal cloud solutions aligned with organizational objectives.
@@ -174,6 +173,5 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 ## Not yet captured (flag for future updates)
 
 - Publications, talks, patents, awards — none currently listed. Add if applicable.
-- Proficiency levels per skill/tool (expert/proficient/familiar/exposure).
 - Certification dates (skipped for now).
 - Team headcount for the 2007–2012 Senior System Administrator role (different era/team than the current 7-person team).
