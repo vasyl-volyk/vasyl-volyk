@@ -1,95 +1,68 @@
 # Vasyl Volyk
-- vasyl.volyk@outlook.com
-- www.linkedin.com/in/vasylvolyk/
-## Objective
-Experienced technology professional seeking to leverage my expertise in cloud management, automation, network security, and infrastructure optimization in a dynamic environment.
 
-## Skills
-- Extensive experience in deploying, configuring, and managing Azure cloud services.
-- Proficient in Infrastructure as Code (IaC) 
-- Skilled in implementing Azure Active Directory (AAD) and integrating it with on-premises directories.
-- Expertise in automating software supply chains using modern tools such as Azure DevOps and Team Foundation Server.
-- Skilled in creating and managing complex Continuous Integration/Continuous Deployment (CI/CD) workflows.
-- Familiarity with various source control solutions, including Git, TFS, and SVN.
-- Strong understanding of networking protocols and models.
-- Proficient in network security, with experience deploying enterprise-level solutions and managing firewalls, routers, and private VPNs.
-- Knowledgeable in Windows system administration, command line operations, and scripting.
-- Experienced in managing MS Active Directory-based networks on a global scale.
-- Proficient in Office 365 administration and operations.
-- Proficient in using Docker for containerization and have a good understanding of Kubernetes.
-- Experience with virtualization technologies such as VMware and Hyper-V.
-- Skilled in managing cloud infrastructures and integrating them with on-premises setups.
-- Experienced in configuring, managing, and monitoring infrastructure using tools like Zabbix, LogicMonitor, SolarWinds, Nagios, Grafana, and Prometheus.
-- Experienced in leading technical teams and coordinating project resources.
-- Certified in SAFe and ITIL methodologies, with the ability to adapt to Agile, Scrum, and Waterfall frameworks.
-- Strong problem-solving skills, with the capability to perform debugging, root cause analysis, and troubleshooting.
+**Senior Infrastructure & Cloud Engineer**
 
-## Work Experience
-### Senior Infrastructure & Cloud Engineer | Sitecore | Jan 2021 – Present
-- Streamlined the design, development, and deployment of cloud-based systems using Azure.
-- Ensured adherence to best practices in the development and maintenance of cloud solutions.
-- Identified and resolved infrastructure vulnerabilities and application deployment issues.
-- Collaborated with engineering and development teams to identify optimal cloud solutions.
-- Implemented new cloud technologies and initiatives and educated teams on their use.
+Ottawa, Ontario, Canada
 
-### Senior DevOps Engineer | Sitecore | Jan 2018 - 2020
-- Led the design and delivery of CI/CD pipelines (TeamCity, Azure)
-- Utilized Azure Cloud and DevOps Azure for seamless integration.
-- Developed automation and deployment utilities using PowerShell.
-- Supported development processes aligned with Agile/Scrum/SAFe principles.
-- Collaborated with sysadmins and development teams to support rapid software iteration.
+- [vasyl.volyk@outlook.com](mailto:vasyl.volyk@outlook.com)
+- [linkedin.com/in/vasylvolyk](https://linkedin.com/in/vasylvolyk/)
 
-### Infrastructure & Cloud Engineer |Sitecore | Sep 2015 - Dec 2017
-- Ensured the availability of critical infrastructure and applications.
-- Implemented and supported Palo Alto Network Firewalls across offices.
-- Managed VM environments (Hyper-V, VMWare) and migration processes.
-- Automated daily tasks using PowerShell scripting.
-- Administered MS Active Directory-based global network infrastructure and deployed development environments.
+## Summary
 
-### IT administrator | Sitecore | Oct 2012 - Sep 2015
-- Maintained the company's IT infrastructure backbone to facilitate effective internal infrastructure solutions and public representation.
-- Ensured the availability of critical infrastructure and applications.
-- Implemented IT policies and ensured compliance.
+Results-driven infrastructure specialist with hands-on experience designing, deploying, and securing mission-critical systems across multitenant cloud environments. Proven expertise in Azure cloud automation, cross-tenant infrastructure engineering, identity and API-driven integration, and virtualization at scale.
 
-### Senior System Administrator | Sitecore | 2007 - Oct 2012
-- Led a team and administered MS Active Directory, Windows servers 200X, and workstations Windows XP/Vista/7.
-- Configured and administered Hyper-V clusters, NAS (iSCSI).
-- Managed mail servers (Exchange 2003/2010) and firewalls (ISA2006/TMG, Palo Alto).
-- Administered MS SQL 2008/2010 servers.
-- Managed switches, VoIP servers (3CX), Terminal servers, and provided technical support.
+## Core Technical Competencies
 
-### Security Engineer  | Home Credit Bank | Mar 2007 - Oct 2007
-- Implemented an analytics system for gathering and analyzing information on a Unix platform.
-- Developed and implemented new security systems for the bank.
+- **Cloud & Multitenant Architecture:** Large-scale Azure multitenant environments (5 tenants, 1,700 users, 500 servers); cross-tenant application deployment, automation, and Azure AD/Entra ID group & user syncing; VNets, NSGs, VPN/ExpressRoute, RBAC, Conditional Access
+- **Identity & API Integration:** Microsoft Graph API for automated onboarding/offboarding and lifecycle management; REST API integration with Workday, Expensify, OnTime, Meraki, Palo Alto Networks, DigiCert, LastPass
+- **Infrastructure & Systems:** Windows/Linux administration, Active Directory (enterprise-scale), Windows Server NLB, Hyper-V/VMware virtualization, NAS/iSCSI storage, backup & disaster recovery, ITIL-aligned operations
+- **Automation & Infrastructure as Code:** Advanced PowerShell scripting; Terraform and Bicep; CI/CD pipeline design (Azure DevOps, TeamCity, Git); Docker
+- **Network & Cloud Security:** Palo Alto Networks next-gen firewalls; Zero Trust principles; Defender for Cloud, Key Vault, PKI, identity federation
+- **Monitoring & Observability:** Azure Monitor, Log Analytics, Application Insights, Microsoft Sentinel, Grafana, Prometheus, Zabbix, SolarWinds
+- **Office 365:** Exchange Online, Teams, SharePoint, licensing, security & compliance policies
+- **Application Development:** Python (FastAPI), OAuth2/Entra ID app registration, Azure Blob Storage, Docker, Azure Container Registry, Azure App Service, Azure DevOps YAML pipelines
 
-### System administrator | Rush | May 2005 - Feb 2007
-- Administered communication Unix-servers (FreeBSD, Linux).
-- Managed corporate mail server, firewalls, hardware routers, and DLink gateway of Voice over IP.
-- Developed and supported local computer and phone networks.
+## Projects
 
-### System Administrator | Epicenter | Aug 2004 - May 2005
-- Administered internet-gates, mail servers, and firewalls.
-- Managed local networks based on W2K Server and Unix.
-- Supported customer software and facilitated smooth integration into the enterprise environment.
+**[CSV Web Viewer](https://github.com/vasyl-volyk/CSVwebViewer)** — Secure, containerized Azure web app (Python/FastAPI) for uploading and viewing CSV files, with Entra ID OAuth2 authentication, Azure Blob Storage, and a full Azure DevOps CI/CD pipeline to Azure App Service.
 
-### System engineer | ISD | Apr 2004 - Aug 2004
-- Installed and configured server-side testing software (AIX operating system).
-- Developed automation tools using Shell and Perl.
+**PowerShell Reporting & Automation Framework** — Modular, config-driven PowerShell framework running scheduled reporting jobs via Azure DevOps pipelines, integrating Microsoft Graph API, Azure AD/Entra ID, Palo Alto Panorama, Meraki, DigiCert, LastPass, and Workday.
 
-### Electronic Engineer | Ukrainian State Air Traffic Service Enterprise | Jul 1999 - Mar 2004
-- Developed and supported network and computer systems.
-- Provided user support and training.
-- Administered Windows 2000 and Unix servers.
+## Experience
+
+**Senior Infrastructure & Cloud Engineer** — Sitecore (Jan 2021 – Present)
+Leading a 7-person infrastructure team across a 5-tenant, 1,700-user, 500-server Azure environment; automated identity lifecycle management via Microsoft Graph API; deployed Zero Trust security with Microsoft Sentinel and Defender for Cloud; automated provisioning with PowerShell/Terraform/Bicep, cutting deployment time ~50%.
+
+**Senior DevOps Engineer** — Sitecore (Jan 2018 – Dec 2020)
+Led CI/CD pipeline design (TeamCity, Azure DevOps); built infrastructure automation with PowerShell; supported Agile/Scrum/SAFe development teams.
+
+**Infrastructure & Cloud Engineer** — Sitecore (Sep 2015 – Dec 2017)
+Enterprise firewall implementation, Hyper-V/VMware migrations, Active Directory administration across global infrastructure.
+
+**IT Administrator** — Sitecore (Oct 2012 – Sep 2015)
+Maintained enterprise IT infrastructure backbone; implemented ITIL-aligned policies and security controls.
+
+**Senior System Administrator** — Sitecore (2007 – Oct 2012)
+Led infrastructure team; administered Active Directory, Windows clusters, Hyper-V/NAS, Exchange, firewalls, MS SQL.
+
+**Security Engineer** — Home Credit Bank (Mar – Oct 2007)
+Designed and deployed security analytics systems on Unix platforms.
+
+**Earlier roles** — Rush, Epicenter, ISD, Ukrainian State Air Traffic Service Enterprise (2004 – 2007)
+Unix/Linux administration, network design, Shell/Perl automation tooling.
 
 ## Education
-- Bachelor's degree, Applied Mathematics | Dnepropetrovsk State University | 1996 – 2001
 
-## Licenses & Certifications
-- Microsoft Certified: Azure Fundamentals
+Bachelor's Degree in Applied Mathematics — Dnepropetrovsk State University (1996–2001)
+
+## Certifications
+
 - Microsoft Certified: Azure Administrator Associate
 - Microsoft Certified: DevOps Engineer Expert
 - Microsoft Certified: Azure Security Engineer Associate
+- Microsoft Certified: Azure Fundamentals
 - AWS Certified Cloud Practitioner
 
-## Languages:
-- English, Ukrainian, Russian
+## Languages
+
+English (Professional) · Ukrainian (Native) · Russian (Professional)
