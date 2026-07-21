@@ -36,10 +36,13 @@ Large-scale Azure multitenant environments (5 tenants, 1,700 users, 500 servers)
 Microsoft Graph API for automated user onboarding/offboarding, lifecycle management, and hybrid AD-to-Entra ID group synchronization; REST API integration across business and security systems including Workday, Expensify, OnTime, Meraki, Palo Alto Networks, DigiCert, and LastPass for reporting, provisioning, and network/security automation.
 
 **Infrastructure & Systems**
-Windows/Linux server administration, Active Directory (enterprise-scale), Windows Server Network Load Balancing (NLB), Hyper-V/VMware virtualization, NAS/iSCSI storage, backup & disaster recovery, Azure Backup (VM/workload protection), Microsoft Endpoint Configuration Manager (SCCM) for OS deployment, endpoint/configuration management, and patch management, ITIL-aligned operations, capacity planning, performance tuning, patch management.
+Windows/Linux server administration, Active Directory (enterprise-scale), Windows Server Network Load Balancing (NLB), Hyper-V/VMware virtualization, NAS/iSCSI storage, backup & disaster recovery, ITIL-aligned operations, capacity planning, performance tuning, patch management.
 
 **Automation & Infrastructure as Code**
-Advanced PowerShell scripting, including PowerShell Desired State Configuration (DSC) for declarative configuration management; Azure CLI; Terraform for governance-scale, auditable provisioning (management groups, Azure subscriptions, Azure Policy definitions/assignments, IAM/RBAC role assignments) and Bicep for workload provisioning (virtual machines, internal network integration, Active Directory domain join); CI/CD pipeline design and automation (Azure DevOps, TeamCity, Git); Docker for deployment consistency; Documentation as Code (Azure DevOps Wiki + MkDocs static-site publishing pipelines).
+Advanced PowerShell scripting; Terraform for governance-scale, auditable provisioning (management groups, Azure subscriptions, Azure Policy definitions/assignments, IAM/RBAC role assignments) and Bicep for workload provisioning (virtual machines, internal network integration, Active Directory domain join); CI/CD pipeline design and automation (Azure DevOps, TeamCity, Git); Docker for deployment consistency; Documentation as Code (Azure DevOps Wiki + MkDocs static-site publishing pipelines).
+
+**Application Platforms (Build/Deploy & Infra Support)**
+.NET / C# ecosystem (familiar) — supported CI/CD build and deployment pipelines and infrastructure (IIS, app pools, environment configuration) for Sitecore CMS, a large-scale .NET/C# product.
 
 **Network & Cloud Security**
 Enterprise-grade next-generation firewalls (Palo Alto Networks); network security architecture; Zero Trust security principles; Defender for Cloud, Key Vault, cryptography, PKI, identity federation, secure infrastructure hardening; packet capture and protocol analysis with Wireshark for firewall, DNS, and authentication-flow troubleshooting.
@@ -54,7 +57,7 @@ Exchange Online mailbox administration, Microsoft Teams, SharePoint, licensing m
 Python (FastAPI) web application development; OAuth2/Entra ID app registration and delegated Microsoft Graph permissions for secure authentication; Azure Blob Storage; Docker containerization; Azure Container Registry (ACR) and Azure App Service deployment; Azure DevOps YAML pipelines for automated build & deploy; Jinja2/HTML templating; TLS/SSL and custom domain configuration.
 
 **Emerging Technologies & Leadership**
-AI-driven tools integrated into infrastructure operations and troubleshooting workflows; leadership of a 7-person infrastructure team; vendor management and equipment procurement; SAFe, ITIL, Agile/Scrum, Waterfall methodologies.
+AI-driven tools integrated into infrastructure operations and troubleshooting workflows, including GitHub Copilot agent mode in VS Code (proficient — regular part of workflow) for scripting (PowerShell, Terraform, Bicep), debugging/troubleshooting, and general coding across projects; leadership of a 7-person infrastructure team; vendor management and equipment procurement; SAFe, ITIL, Agile/Scrum, Waterfall methodologies.
 
 ---
 
@@ -91,15 +94,13 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Built REST API integrations connecting core infrastructure and business systems — including Workday, Expensify, OnTime, Meraki, and Palo Alto Networks — to automate reporting, streamline provisioning, and centralize network/security data.
 - Administered the Office 365 environment (Exchange Online, Teams, SharePoint), including licensing management, security and compliance policies, and fully automated onboarding/offboarding procedures.
 - Designed, developed, and deployed secure cloud-based systems leveraging Azure best practices to support enterprise operations.
-- Drove infrastructure-as-code and automation adoption across the environment using PowerShell (including Desired State Configuration), Azure CLI, Terraform, and Bicep, reducing deployment time and human error by approximately 50% while ensuring infrastructure consistency.
-- Managed endpoint and configuration management with Microsoft Endpoint Configuration Manager (SCCM), including OS deployment and patch management across 100+ servers and 700+ client operating systems.
-- Protected approximately 100 virtual machines and workloads with Azure Backup, maintaining recoverability and backup compliance across the environment.
+- Drove infrastructure-as-code and automation adoption across the environment using PowerShell, Terraform, and Bicep, reducing deployment time and human error by approximately 50% while ensuring infrastructure consistency.
 - Codified Azure governance and landing-zone infrastructure in Terraform — provisioning management groups, subscriptions, Azure Policy definitions/assignments, and IAM/RBAC role assignments — fully automated through Azure DevOps pipelines for repeatable, version-controlled, and auditable deployments.
 - Developed Bicep templates to provision Azure virtual machines end-to-end, including internal network connectivity and automated Active Directory domain join, standardizing VM builds and removing manual post-deployment configuration.
 - Gained hands-on AWS experience (EC2, S3, IAM policy configuration), supporting workloads alongside the primary Azure environment.
 - Led a Documentation as Code initiative: migrated ~100 pages of team documentation into Azure DevOps Wiki, organized into a structured folder tree, and built a pipeline that automatically publishes it as a static MkDocs website, giving the team a single, searchable, version-controlled knowledge base updated on every commit.
 - Performed packet-level network troubleshooting using Wireshark, diagnosing firewall policy issues, DNS resolution failures, and a complex MFA authentication infinite-loop by analyzing captured traffic.
-- Leveraged AI-driven tools and workflows to enhance operational efficiency, improve troubleshooting accuracy, and augment team performance on complex infrastructure challenges.
+- Leveraged AI-driven tools and workflows — including GitHub Copilot agent mode in VS Code — to enhance operational efficiency, assist with scripting (PowerShell, Terraform, Bicep) and debugging, and augment team performance on complex infrastructure challenges.
 - Identified and resolved infrastructure vulnerabilities and application deployment issues through systematic troubleshooting and root cause analysis.
 - Collaborated with engineering, development, and security teams to architect optimal cloud solutions aligned with organizational objectives.
 - Implemented new cloud technologies (Entra ID, Key Vault, Defender for Cloud) and led team education initiatives on security and operational best practices.
@@ -112,7 +113,8 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 ### Senior DevOps Engineer
 **Sitecore** | Jan 2018 – Dec 2020
 
-- Led design and delivery of CI/CD pipelines using TeamCity and Azure DevOps, enabling rapid and reliable software delivery.
+- Led design and delivery of CI/CD pipelines using TeamCity and Azure DevOps, enabling rapid and reliable software delivery for Sitecore CMS, a large-scale .NET/C# product.
+- Supported build, deployment, and infrastructure (IIS, app pools, environment configuration) for the .NET/C# CMS platform, working closely with development teams on release processes.
 - Utilized Azure Cloud services for seamless integration, automation, and scalability across development and production environments.
 - Developed infrastructure automation and deployment utilities using PowerShell, supporting infrastructure-as-code practices.
 - Supported development teams within Agile/Scrum/SAFe frameworks, enabling rapid software iteration and continuous improvement.
@@ -188,6 +190,4 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Certification dates (skipped for now).
 - Team headcount for the 2007–2012 Senior System Administrator role (different era/team than the current 7-person team).
 - Optional future metrics (left qualitative for now by choice): Terraform governance provisioning (counts of management groups/subscriptions/policies/role assignments) and Bicep VM provisioning (number of VMs, time saved per build). Documentation as Code metric captured (~100 pages migrated). AWS captured at familiar level (EC2, S3, IAM) — add scale/impact if it grows.
-- Captured in CMHC tailoring session (Jul 2026): SCCM (100+ servers, 700+ client OS), Azure CLI, Azure Backup (~100 VMs/workloads), PowerShell Desired State Configuration (DSC). Proficiency levels and specific role/dates not yet specified for these — placed under the current Senior Infrastructure & Cloud Engineer role based on matching environment scale; confirm/adjust in a future update.
-- Confirmed NO experience as of Jul 2026 (honest gaps, do not pad): Ansible, Nutanix / hyperconverged platforms, SD-WAN, Commvault (and Veeam / Veritas NetBackup / Rubrik), DB2, Azure SQL.
-- Open gaps surfaced during earlier tailoring (no experience confirmed yet): Kubernetes, CloudFormation, GitHub Actions, FinOps/cost optimization, PAM, SOAR, executive technical/financial roadmap presentation. Bash to be confirmed vs. existing Shell/Perl.
+- Open gaps surfaced during tailoring (no experience confirmed yet): Kubernetes, CloudFormation, GitHub Actions, FinOps/cost optimization, PAM, SOAR, executive technical/financial roadmap presentation. Bash to be confirmed vs. existing Shell/Perl.
