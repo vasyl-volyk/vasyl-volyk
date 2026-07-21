@@ -32,6 +32,9 @@ Results-driven infrastructure specialist with hands-on experience designing, dep
 **Cloud & Multitenant Architecture**
 Large-scale Azure multitenant environments (5 tenants, 1,700 users, 500 servers); cross-tenant application deployment, automation, and Azure AD / Entra ID group & user syncing; VNets, NSGs, VPN/ExpressRoute, RBAC, Conditional Access. Hands-on AWS (familiar) — EC2, S3, and IAM policy configuration, used in a supporting capacity alongside the primary Azure environment.
 
+**Cloud Cost Management / FinOps**
+Azure Cost Management + Billing (expert) — tag governance enforced via Azure Policy at the resource-group level, invoice section–based cost allocation, cost/resource owner identification for accountability, and proactive identification and remediation of unused/idle resources. Implemented initially as a dedicated project, then sustained as ongoing governance work across the multitenant environment; outcome was cost savings and improved right-targeting of spend to owners/teams (qualitative — no formal $ or % figure captured).
+
 **Identity & API Integration**
 Microsoft Graph API for automated user onboarding/offboarding, lifecycle management, and hybrid AD-to-Entra ID group synchronization; REST API integration across business and security systems including Workday, Expensify, OnTime, Meraki, Palo Alto Networks, DigiCert, and LastPass for reporting, provisioning, and network/security automation.
 
@@ -90,6 +93,7 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 **Sitecore** | Jan 2021 – Present
 
 - Lead a 7-person infrastructure team managing a large-scale multitenant Azure environment spanning 5 tenants, 1,700 users, and 500 servers, overseeing cross-tenant application deployment, automation, and Azure AD group/user synchronization.
+- Implemented Azure cost governance as a FinOps practice (expert level): enforced resource-group tagging via Azure Policy, used invoice sections for cost allocation, identified resource/cost owners for accountability, and proactively identified unused/idle resources — initially delivered as a project, then sustained as ongoing governance work, driving cost savings and improved right-targeting of spend across the multitenant environment.
 - Automated user lifecycle management (onboarding/offboarding) using Microsoft Graph API, standardizing account provisioning and de-provisioning across tenants and reducing manual identity administration.
 - Built REST API integrations connecting core infrastructure and business systems — including Workday, Expensify, OnTime, Meraki, and Palo Alto Networks — to automate reporting, streamline provisioning, and centralize network/security data.
 - Administered the Office 365 environment (Exchange Online, Teams, SharePoint), including licensing management, security and compliance policies, and fully automated onboarding/offboarding procedures.
@@ -189,5 +193,5 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Publications, talks, patents, awards — none currently listed. Add if applicable.
 - Certification dates (skipped for now).
 - Team headcount for the 2007–2012 Senior System Administrator role (different era/team than the current 7-person team).
-- Optional future metrics (left qualitative for now by choice): Terraform governance provisioning (counts of management groups/subscriptions/policies/role assignments) and Bicep VM provisioning (number of VMs, time saved per build). Documentation as Code metric captured (~100 pages migrated). AWS captured at familiar level (EC2, S3, IAM) — add scale/impact if it grows.
-- Open gaps surfaced during tailoring (no experience confirmed yet): Kubernetes, CloudFormation, GitHub Actions, FinOps/cost optimization, PAM, SOAR, executive technical/financial roadmap presentation. Bash to be confirmed vs. existing Shell/Perl.
+- Optional future metrics (left qualitative for now by choice): Terraform governance provisioning (counts of management groups/subscriptions/policies/role assignments) and Bicep VM provisioning (number of VMs, time saved per build). Documentation as Code metric captured (~100 pages migrated). AWS captured at familiar level (EC2, S3, IAM) — add scale/impact if it grows. Azure FinOps/cost governance captured (expert level, tagging/invoice sections/owner ID/idle resource cleanup) — add hard $ or % savings figure if it becomes available.
+- Open gaps surfaced during tailoring (no experience confirmed yet): Kubernetes/EKS, Kubecost/OpenCost, CUR-based pipelines, Karpenter, Graviton, AWS Savings Plans/RIs, CloudFormation, GitHub Actions, Go, PAM, SOAR, executive technical/financial roadmap presentation. Bash to be confirmed vs. existing Shell/Perl.
