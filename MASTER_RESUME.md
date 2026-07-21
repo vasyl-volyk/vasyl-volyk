@@ -39,7 +39,7 @@ Microsoft Graph API for automated user onboarding/offboarding, lifecycle managem
 Windows/Linux server administration, Active Directory (enterprise-scale), Windows Server Network Load Balancing (NLB), Hyper-V/VMware virtualization, NAS/iSCSI storage, backup & disaster recovery, ITIL-aligned operations, capacity planning, performance tuning, patch management.
 
 **Automation & Infrastructure as Code**
-Advanced PowerShell scripting; Terraform and Bicep for repeatable, secure, and auditable cloud provisioning; CI/CD pipeline design (Azure DevOps, TeamCity, Git); Docker for deployment consistency.
+Advanced PowerShell scripting; Terraform for governance-scale, auditable provisioning (management groups, Azure subscriptions, Azure Policy definitions/assignments, IAM/RBAC role assignments) and Bicep for workload provisioning (virtual machines, internal network integration, Active Directory domain join); CI/CD pipeline design and automation (Azure DevOps, TeamCity, Git); Docker for deployment consistency; Documentation as Code (Azure DevOps Wiki + MkDocs static-site publishing pipelines).
 
 **Network & Cloud Security**
 Enterprise-grade next-generation firewalls (Palo Alto Networks); network security architecture; Zero Trust security principles; Defender for Cloud, Key Vault, cryptography, PKI, identity federation, secure infrastructure hardening; packet capture and protocol analysis with Wireshark for firewall, DNS, and authentication-flow troubleshooting.
@@ -72,6 +72,12 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Authored a wide library of report scripts integrating with Microsoft Graph API, Azure AD/Entra ID, Conditional Access, and Defender for Cloud, including a hybrid AD-to-Entra ID group synchronization validator.
 - Built REST API integrations with third-party platforms — including Palo Alto Panorama, Meraki, DigiCert (SSL certificate lifecycle monitoring), LastPass Enterprise, and Workday — to centralize security, access, and asset reporting.
 - Automated authentication via Azure Service Principal and orchestrated all jobs through a single runner script driven by JSON configuration, making it easy to add new reports without changing core logic.
+- Published on GitHub: github.com/vasyl-volyk/azure-reporting-toolkit
+
+### Documentation as Code — Azure DevOps Wiki + MkDocs Publishing Pipeline
+- Led a Documentation as Code initiative, migrating all team documentation (~100 pages) into Azure DevOps Wiki and organizing it into a structured folder tree, replacing scattered, ad-hoc docs with a single version-controlled source of truth.
+- Configured an Azure DevOps pipeline to automatically build and publish the documentation as a static website using MkDocs, keeping the published site in sync with the wiki on every change.
+- Improved documentation discoverability, consistency, and maintainability across the infrastructure team.
 
 ---
 
@@ -85,7 +91,10 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Built REST API integrations connecting core infrastructure and business systems — including Workday, Expensify, OnTime, Meraki, and Palo Alto Networks — to automate reporting, streamline provisioning, and centralize network/security data.
 - Administered the Office 365 environment (Exchange Online, Teams, SharePoint), including licensing management, security and compliance policies, and fully automated onboarding/offboarding procedures.
 - Designed, developed, and deployed secure cloud-based systems leveraging Azure best practices to support enterprise operations.
-- Automated infrastructure provisioning and configuration using PowerShell, Terraform, and Bicep, reducing deployment time and human error by approximately 50% while ensuring infrastructure consistency.
+- Drove infrastructure-as-code and automation adoption across the environment using PowerShell, Terraform, and Bicep, reducing deployment time and human error by approximately 50% while ensuring infrastructure consistency.
+- Codified Azure governance and landing-zone infrastructure in Terraform — provisioning management groups, subscriptions, Azure Policy definitions/assignments, and IAM/RBAC role assignments — fully automated through Azure DevOps pipelines for repeatable, version-controlled, and auditable deployments.
+- Developed Bicep templates to provision Azure virtual machines end-to-end, including internal network connectivity and automated Active Directory domain join, standardizing VM builds and removing manual post-deployment configuration.
+- Led a Documentation as Code initiative: migrated ~100 pages of team documentation into Azure DevOps Wiki, organized into a structured folder tree, and built a pipeline that automatically publishes it as a static MkDocs website, giving the team a single, searchable, version-controlled knowledge base updated on every commit.
 - Performed packet-level network troubleshooting using Wireshark, diagnosing firewall policy issues, DNS resolution failures, and a complex MFA authentication infinite-loop by analyzing captured traffic.
 - Leveraged AI-driven tools and workflows to enhance operational efficiency, improve troubleshooting accuracy, and augment team performance on complex infrastructure challenges.
 - Identified and resolved infrastructure vulnerabilities and application deployment issues through systematic troubleshooting and root cause analysis.
@@ -175,3 +184,4 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Publications, talks, patents, awards — none currently listed. Add if applicable.
 - Certification dates (skipped for now).
 - Team headcount for the 2007–2012 Senior System Administrator role (different era/team than the current 7-person team).
+- Optional future metrics (left qualitative for now by choice): Terraform governance provisioning (counts of management groups/subscriptions/policies/role assignments) and Bicep VM provisioning (number of VMs, time saved per build). Documentation as Code metric captured (~100 pages migrated).
