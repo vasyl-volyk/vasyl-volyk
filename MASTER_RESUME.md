@@ -31,7 +31,7 @@ Results-driven infrastructure specialist with hands-on experience designing, dep
 ## Core Technical Competencies (by category)
 
 **Cloud & Multitenant Architecture**
-Large-scale Azure multitenant environments (5 tenants, 1,700 users, 500 servers); cross-tenant application deployment, automation, and Azure AD / Entra ID group & user syncing; VNets, NSGs, VPN/ExpressRoute, RBAC, Conditional Access. Hands-on AWS (familiar) — EC2, S3, and IAM policy configuration, used in a supporting capacity alongside the primary Azure environment.
+Large-scale Azure multitenant environments (5 tenants, 1,700 users, 500 servers); cross-tenant application deployment, automation, and Azure AD / Entra ID group & user syncing; VNets, NSGs, VPN/ExpressRoute, RBAC, Conditional Access. Hands-on AWS (familiar) — EC2, S3, and IAM policy configuration, used in a supporting capacity alongside the primary Azure environment. GCP (exposure) — hands-on labs (Compute, IAM, etc.) completed as part of a DevOps training course; no production experience.
 
 **Cloud Cost Management / FinOps**
 Azure Cost Management + Billing (expert) — tag governance enforced via Azure Policy at the resource-group level, invoice section–based cost allocation, cost/resource owner identification for accountability, and proactive identification and remediation of unused/idle resources. Implemented initially as a dedicated project, then sustained as ongoing governance work across the multitenant environment; outcome was cost savings and improved right-targeting of spend to owners/teams (qualitative — no formal $ or % figure captured).
@@ -43,7 +43,7 @@ Microsoft Graph API for automated user onboarding/offboarding, lifecycle managem
 Windows/Linux server administration, Active Directory (enterprise-scale), Windows Server Network Load Balancing (NLB), Hyper-V/VMware virtualization, NAS/iSCSI storage, backup & disaster recovery, ITIL-aligned operations, capacity planning, performance tuning, patch management.
 
 **Automation & Infrastructure as Code**
-Advanced PowerShell scripting; Bash (familiar) — used in both current Azure infrastructure automation and earlier Unix/Linux administration roles; Windows batch/.bat scripting (proficient) — used for Sitecore infrastructure automation; Azure Functions (expert) — timer-triggered PowerShell Function Apps for automated operational tasks (e.g., Azure DNS zone backup); Terraform for governance-scale, auditable provisioning (management groups, Azure subscriptions, Azure Policy definitions/assignments, IAM/RBAC role assignments) and Bicep for workload provisioning (virtual machines, internal network integration, Active Directory domain join); CI/CD pipeline design and automation (Azure DevOps — Pipelines, Repos, Boards (expert), Artifacts (proficient); TeamCity, Git); Docker for deployment consistency; Documentation as Code (Azure DevOps Wiki + MkDocs static-site publishing pipelines).
+Advanced PowerShell scripting; Azure Functions (expert) — timer-triggered PowerShell Function Apps for automated operational tasks (e.g., Azure DNS zone backup); Terraform for governance-scale, auditable provisioning (management groups, Azure subscriptions, Azure Policy definitions/assignments, IAM/RBAC role assignments) and Bicep for workload provisioning (virtual machines, internal network integration, Active Directory domain join); CI/CD pipeline design and automation (Azure DevOps — Pipelines, Repos, Boards (expert), Artifacts (proficient); TeamCity, Git); Docker for deployment consistency; Documentation as Code (Azure DevOps Wiki + MkDocs static-site publishing pipelines).
 
 **Application Platforms (Build/Deploy & Infra Support)**
 .NET / C# ecosystem (familiar) — supported CI/CD build and deployment pipelines and infrastructure (IIS, app pools, environment configuration) for Sitecore CMS, a large-scale .NET/C# product.
@@ -104,7 +104,7 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Built REST API integrations connecting core infrastructure and business systems — including Workday, Expensify, OnTime, Meraki, and Palo Alto Networks — to automate reporting, streamline provisioning, and centralize network/security data.
 - Administered the Office 365 environment (Exchange Online, Teams, SharePoint), including licensing management, security and compliance policies, and fully automated onboarding/offboarding procedures.
 - Designed, developed, and deployed secure cloud-based systems leveraging Azure best practices to support enterprise operations.
-- Drove infrastructure-as-code and automation adoption across the environment using PowerShell, Bash, Windows batch scripting, Terraform, and Bicep, reducing deployment time and human error by approximately 50% while ensuring infrastructure consistency.
+- Drove infrastructure-as-code and automation adoption across the environment using PowerShell, Terraform, and Bicep, reducing deployment time and human error by approximately 50% while ensuring infrastructure consistency.
 - Codified Azure governance and landing-zone infrastructure in Terraform — provisioning management groups, subscriptions, Azure Policy definitions/assignments, and IAM/RBAC role assignments — fully automated through Azure DevOps pipelines for repeatable, version-controlled, and auditable deployments.
 - Developed Bicep templates to provision Azure virtual machines end-to-end, including internal network connectivity and automated Active Directory domain join, standardizing VM builds and removing manual post-deployment configuration.
 - Built a timer-triggered Azure Function App (PowerShell) to automatically back up all Azure DNS zones to Blob Storage, authenticating via Managed Identity — closing a gap in native Azure functionality and providing 100% protection of DNS zone configurations against accidental deletion or modification.
@@ -122,7 +122,6 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Configured Windows Server Network Load Balancing (NLB) to ensure high availability for critical internal services.
 - Ensured adherence to ITIL principles and security standards across the cloud infrastructure lifecycle.
 - Provided and maintained the working environment for developers and technical specialists; regularly encountered new and unfamiliar tasks, requiring fast learning and quick delivery of working solutions.
-- Used Windows batch (.bat) scripting (proficient) to support infrastructure automation tasks alongside PowerShell.
 
 ### Senior DevOps Engineer
 **Sitecore** | Jan 2018 – Dec 2020
@@ -170,7 +169,7 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 
 - Unix/Linux server administration (FreeBSD, Linux), communications infrastructure, mail and firewall management.
 - Network design and support, local area networks, customer integration, testing software deployment (AIX).
-- Developed automation tools using Shell, Bash, and Perl scripting.
+- Developed automation tools using Shell and Perl scripting.
 
 ---
 
@@ -204,6 +203,6 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Certification dates (skipped for now).
 - Team headcount for the 2007–2012 Senior System Administrator role (different era/team than the current 7-person team).
 - Optional future metrics (left qualitative for now by choice): Terraform governance provisioning (counts of management groups/subscriptions/policies/role assignments) and Bicep VM provisioning (number of VMs, time saved per build). Documentation as Code metric captured (~100 pages migrated). AWS captured at familiar level (EC2, S3, IAM) — add scale/impact if it grows. Azure FinOps/cost governance captured (expert level, tagging/invoice sections/owner ID/idle resource cleanup) — add hard $ or % savings figure if it becomes available. Hub-spoke/Private Endpoints/Private DNS scale (number of VNets, endpoints, or zones) — add if it becomes available; currently qualitative only.
-- Open gaps surfaced during tailoring (no experience confirmed yet): Azure Data Factory, Azure Data Lake Storage (ADLS), Azure Synapse Analytics, Azure Analysis Services (AAS), Kubernetes/EKS, Kubecost/OpenCost, CUR-based pipelines, Karpenter, Graviton, AWS Savings Plans/RIs, CloudFormation, GitHub Actions, Go, PAM, SOAR, executive technical/financial roadmap presentation. Azure Logic Apps — no experience confirmed.
-- Bash vs. Shell/Perl: **resolved** — confirmed bash experience (familiar level), used in both current Sitecore Azure infrastructure automation and earlier Unix/Linux roles (2004–2007). Windows batch/.bat scripting confirmed at proficient level, used for Sitecore infrastructure automation.
+- Open gaps surfaced during tailoring (no experience confirmed yet): Kubernetes/EKS/AKS (confirmed as of Jul 2026 — no experience), Puppet, CloudFormation, Ansible (confirmed — Terraform/Bicep only), ELK/OpenSearch stack (confirmed — no experience), container security tools — Falco, OPA/Gatekeeper, image scanning, runtime protection (confirmed — no experience), AWS Security Specialist/OSCP/CKS/GCPN/CISSP certs (confirmed — none held), Azure Data Factory, Kubecost/OpenCost, CUR-based pipelines, Karpenter, Graviton, AWS Savings Plans/RIs, GitHub Actions, Go, PAM, SOAR, executive technical/financial roadmap presentation. Bash to be confirmed vs. existing Shell/Perl.
+- GCP: confirmed exposure only (Jul 2026) — hands-on labs (Compute, IAM, etc.) completed as part of a DevOps training course; no production experience. Revisit if production GCP work is gained.
 - Government of Canada security clearance: confirmed as of Jul 2026 — does NOT currently hold Reliability or higher. Relevant for future gov't-adjacent postings; revisit if clearance is obtained.
