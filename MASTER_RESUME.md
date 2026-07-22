@@ -10,6 +10,7 @@
 - **Phone:** +1 343 998 1748
 - **Email:** vasyl.volyk@outlook.com
 - **LinkedIn:** linkedin.com/in/vasylvolyk/
+- **GitHub:** github.com/vasyl-volyk/
 - **Citizenship:** Canadian Citizen
 - **Location:** Ottawa, Ontario, Canada
 
@@ -42,13 +43,13 @@ Microsoft Graph API for automated user onboarding/offboarding, lifecycle managem
 Windows/Linux server administration, Active Directory (enterprise-scale), Windows Server Network Load Balancing (NLB), Hyper-V/VMware virtualization, NAS/iSCSI storage, backup & disaster recovery, ITIL-aligned operations, capacity planning, performance tuning, patch management.
 
 **Automation & Infrastructure as Code**
-Advanced PowerShell scripting; Terraform for governance-scale, auditable provisioning (management groups, Azure subscriptions, Azure Policy definitions/assignments, IAM/RBAC role assignments) and Bicep for workload provisioning (virtual machines, internal network integration, Active Directory domain join); CI/CD pipeline design and automation (Azure DevOps — Pipelines, Repos, Boards (expert), Artifacts (proficient); TeamCity, Git); Docker for deployment consistency; Documentation as Code (Azure DevOps Wiki + MkDocs static-site publishing pipelines).
+Advanced PowerShell scripting; Azure Functions (expert) — timer-triggered PowerShell Function Apps for automated operational tasks (e.g., Azure DNS zone backup); Terraform for governance-scale, auditable provisioning (management groups, Azure subscriptions, Azure Policy definitions/assignments, IAM/RBAC role assignments) and Bicep for workload provisioning (virtual machines, internal network integration, Active Directory domain join); CI/CD pipeline design and automation (Azure DevOps — Pipelines, Repos, Boards (expert), Artifacts (proficient); TeamCity, Git); Docker for deployment consistency; Documentation as Code (Azure DevOps Wiki + MkDocs static-site publishing pipelines).
 
 **Application Platforms (Build/Deploy & Infra Support)**
 .NET / C# ecosystem (familiar) — supported CI/CD build and deployment pipelines and infrastructure (IIS, app pools, environment configuration) for Sitecore CMS, a large-scale .NET/C# product.
 
 **Network & Cloud Security**
-Enterprise-grade next-generation firewalls (Palo Alto Networks); network security architecture; Zero Trust security principles; Defender for Cloud, Key Vault, cryptography, PKI, identity federation, secure infrastructure hardening; packet capture and protocol analysis with Wireshark for firewall, DNS, and authentication-flow troubleshooting.
+Enterprise-grade next-generation firewalls (Palo Alto Networks); network security architecture including hub-spoke topology (expert) — multiple VNets connected to a centralized Azure Firewall hub; Private Endpoints (expert) for securing qualifying Azure resources on the internal network; Azure Private DNS (expert) — internal DNS zone registration and internal IP resolution for privately-connected resources; Zero Trust security principles; Defender for Cloud, Key Vault, cryptography, PKI, identity federation, secure infrastructure hardening; packet capture and protocol analysis with Wireshark for firewall, DNS, and authentication-flow troubleshooting.
 
 **Monitoring & Observability**
 Azure Monitor, Log Analytics, Application Insights, Microsoft Sentinel; Grafana, Prometheus, Zabbix, SolarWinds, LogicMonitor; proactive alerting, troubleshooting, root cause analysis, NOC/SOC-aligned monitoring and threat visibility.
@@ -80,6 +81,11 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Automated authentication via Azure Service Principal and orchestrated all jobs through a single runner script driven by JSON configuration, making it easy to add new reports without changing core logic.
 - Published on GitHub: github.com/vasyl-volyk/azure-reporting-toolkit
 
+### Azure DNS Zone Backup — Serverless Automation
+- Built a timer-triggered Azure Function App (PowerShell) to automatically back up all Azure DNS zones on a schedule, addressing a gap in native Azure functionality (no built-in DNS zone backup).
+- Authenticated to Azure resources using Managed Identity and persisted backups to Azure Blob Storage.
+- Outcome: 100% protection of DNS zone configurations against accidental deletion or modification, with a reliable restore point always available.
+
 ### Documentation as Code — Azure DevOps Wiki + MkDocs Publishing Pipeline
 - Led a Documentation as Code initiative, migrating all team documentation (~100 pages) into Azure DevOps Wiki and organizing it into a structured folder tree, replacing scattered, ad-hoc docs with a single version-controlled source of truth.
 - Configured an Azure DevOps pipeline to automatically build and publish the documentation as a static website using MkDocs, keeping the published site in sync with the wiki on every change.
@@ -101,6 +107,8 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Drove infrastructure-as-code and automation adoption across the environment using PowerShell, Terraform, and Bicep, reducing deployment time and human error by approximately 50% while ensuring infrastructure consistency.
 - Codified Azure governance and landing-zone infrastructure in Terraform — provisioning management groups, subscriptions, Azure Policy definitions/assignments, and IAM/RBAC role assignments — fully automated through Azure DevOps pipelines for repeatable, version-controlled, and auditable deployments.
 - Developed Bicep templates to provision Azure virtual machines end-to-end, including internal network connectivity and automated Active Directory domain join, standardizing VM builds and removing manual post-deployment configuration.
+- Built a timer-triggered Azure Function App (PowerShell) to automatically back up all Azure DNS zones to Blob Storage, authenticating via Managed Identity — closing a gap in native Azure functionality and providing 100% protection of DNS zone configurations against accidental deletion or modification.
+- Designed and implemented a hub-spoke network architecture, connecting multiple VNets to a centralized Azure Firewall hub; secured qualifying Azure resources requiring internal-only connectivity via Private Endpoints and registered them in Azure Private DNS zones with internal IP addresses for internal resolution.
 - Gained hands-on AWS experience (EC2, S3, IAM policy configuration), supporting workloads alongside the primary Azure environment.
 - Led a Documentation as Code initiative: migrated ~100 pages of team documentation into Azure DevOps Wiki, organized into a structured folder tree, and built a pipeline that automatically publishes it as a static MkDocs website, giving the team a single, searchable, version-controlled knowledge base updated on every commit.
 - Tracked and managed infrastructure and operations work using Azure Boards (expert level); used Azure Artifacts to host and distribute feeds of operational reports and pre-configuration files across the team.
@@ -194,6 +202,6 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Publications, talks, patents, awards — none currently listed. Add if applicable.
 - Certification dates (skipped for now).
 - Team headcount for the 2007–2012 Senior System Administrator role (different era/team than the current 7-person team).
-- Optional future metrics (left qualitative for now by choice): Terraform governance provisioning (counts of management groups/subscriptions/policies/role assignments) and Bicep VM provisioning (number of VMs, time saved per build). Documentation as Code metric captured (~100 pages migrated). AWS captured at familiar level (EC2, S3, IAM) — add scale/impact if it grows. Azure FinOps/cost governance captured (expert level, tagging/invoice sections/owner ID/idle resource cleanup) — add hard $ or % savings figure if it becomes available.
-- Open gaps surfaced during tailoring (no experience confirmed yet): Kubernetes/EKS, Kubecost/OpenCost, CUR-based pipelines, Karpenter, Graviton, AWS Savings Plans/RIs, CloudFormation, GitHub Actions, Go, PAM, SOAR, executive technical/financial roadmap presentation. Bash to be confirmed vs. existing Shell/Perl.
+- Optional future metrics (left qualitative for now by choice): Terraform governance provisioning (counts of management groups/subscriptions/policies/role assignments) and Bicep VM provisioning (number of VMs, time saved per build). Documentation as Code metric captured (~100 pages migrated). AWS captured at familiar level (EC2, S3, IAM) — add scale/impact if it grows. Azure FinOps/cost governance captured (expert level, tagging/invoice sections/owner ID/idle resource cleanup) — add hard $ or % savings figure if it becomes available. Hub-spoke/Private Endpoints/Private DNS scale (number of VNets, endpoints, or zones) — add if it becomes available; currently qualitative only.
+- Open gaps surfaced during tailoring (no experience confirmed yet): Azure Logic Apps, Azure Data Factory, Kubernetes/EKS, Kubecost/OpenCost, CUR-based pipelines, Karpenter, Graviton, AWS Savings Plans/RIs, CloudFormation, GitHub Actions, Go, PAM, SOAR, executive technical/financial roadmap presentation. Bash to be confirmed vs. existing Shell/Perl.
 - Government of Canada security clearance: confirmed as of Jul 2026 — does NOT currently hold Reliability or higher. Relevant for future gov't-adjacent postings; revisit if clearance is obtained.
