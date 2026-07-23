@@ -42,6 +42,9 @@ Microsoft Graph API for automated user onboarding/offboarding, lifecycle managem
 **Infrastructure & Systems**
 Windows/Linux server administration, Active Directory (enterprise-scale), Windows Server Network Load Balancing (NLB), Hyper-V/VMware virtualization, NAS/iSCSI storage, backup & disaster recovery, ITIL-aligned operations, capacity planning, performance tuning, patch management.
 
+**Endpoint & Device Management**
+Microsoft Intune and SCCM (System Center Configuration Manager) — device enrollment, compliance policy configuration, application deployment, and patch management within a single large-scale organization (Sitecore). Proficiency level and environment scale (device count) not yet specified — add if it becomes available.
+
 **Automation & Infrastructure as Code**
 Advanced PowerShell scripting; Azure Functions (expert) — timer-triggered PowerShell Function Apps for automated operational tasks (e.g., Azure DNS zone backup); Terraform for governance-scale, auditable provisioning (management groups, Azure subscriptions, Azure Policy definitions/assignments, IAM/RBAC role assignments) and Bicep for workload provisioning (virtual machines, internal network integration, Active Directory domain join); CI/CD pipeline design and automation (Azure DevOps — Pipelines, Repos, Boards (expert), Artifacts (proficient); TeamCity, Git); Docker for deployment consistency; Documentation as Code (Azure DevOps Wiki + MkDocs static-site publishing pipelines); rolling/canary-style deployment rollouts for VM/server updates via custom PowerShell scripting (familiar) — minimizing environment-wide risk during updates, qualitative outcome, no formal metrics captured.
 
@@ -64,7 +67,7 @@ Exchange Online mailbox administration, Microsoft Teams, SharePoint, licensing m
 Python (FastAPI) web application development; OAuth2/Entra ID app registration and delegated Microsoft Graph permissions for secure authentication; Azure Blob Storage; Docker containerization; Azure Container Registry (ACR) and Azure App Service deployment; Azure DevOps YAML pipelines for automated build & deploy; Jinja2/HTML templating; TLS/SSL and custom domain configuration.
 
 **Emerging Technologies & Leadership**
-AI-driven tools integrated into infrastructure operations and troubleshooting workflows, including GitHub Copilot agent mode in VS Code (proficient — regular part of workflow) for scripting (PowerShell, Terraform, Bicep), debugging/troubleshooting, and general coding across projects; leadership of a 7-person infrastructure team; vendor management and equipment procurement; SAFe, ITIL, Agile/Scrum, Waterfall methodologies.
+AI-driven tools integrated into infrastructure operations and troubleshooting workflows, including GitHub Copilot agent mode in VS Code (proficient — regular part of workflow) for scripting (PowerShell, Terraform, Bicep), debugging/troubleshooting, and general coding across projects; Claude (Claude Code, Claude Desktop/Projects) (advanced) — used for software development, information gathering/scraping, and documentation improvement; leadership of a 7-person infrastructure team; vendor management and equipment procurement; SAFe, ITIL, Agile/Scrum, Waterfall methodologies.
 
 ---
 
@@ -106,6 +109,7 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Automated user lifecycle management (onboarding/offboarding) using Microsoft Graph API, standardizing account provisioning and de-provisioning across tenants and reducing manual identity administration.
 - Built REST API integrations connecting core infrastructure and business systems — including Workday, Expensify, OnTime, Meraki, and Palo Alto Networks — to automate reporting, streamline provisioning, and centralize network/security data.
 - Administered the Office 365 environment (Exchange Online, Teams, SharePoint), including licensing management, security and compliance policies, and fully automated onboarding/offboarding procedures.
+- Managed endpoint devices using Microsoft Intune and SCCM, including device enrollment, compliance policy configuration, application deployment, and patch management.
 - Designed, developed, and deployed secure cloud-based systems leveraging Azure best practices to support enterprise operations.
 - Drove infrastructure-as-code and automation adoption across the environment using PowerShell, Terraform, and Bicep, reducing deployment time and human error by approximately 50% while ensuring infrastructure consistency.
 - Codified Azure governance and landing-zone infrastructure in Terraform — provisioning management groups, subscriptions, Azure Policy definitions/assignments, and IAM/RBAC role assignments — fully automated through Azure DevOps pipelines for repeatable, version-controlled, and auditable deployments.
@@ -118,7 +122,7 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Tracked and managed infrastructure and operations work using Azure Boards (expert level); used Azure Artifacts to host and distribute feeds of operational reports and pre-configuration files across the team.
 - Performed packet-level network troubleshooting using Wireshark, diagnosing firewall policy issues, DNS resolution failures, and a complex MFA authentication infinite-loop by analyzing captured traffic.
 - Participated in a 3-person on-call rotation, carrying a phone and responding to incidents escalated from the support service desk at a frequency of roughly one incident per week.
-- Leveraged AI-driven tools and workflows — including GitHub Copilot agent mode in VS Code — to enhance operational efficiency, assist with scripting (PowerShell, Terraform, Bicep) and debugging, and augment team performance on complex infrastructure challenges.
+- Leveraged AI-driven tools and workflows — including GitHub Copilot agent mode in VS Code and Claude (Claude Code, Claude Desktop/Projects) — to enhance operational efficiency, assist with scripting (PowerShell, Terraform, Bicep), debugging, information gathering, and documentation improvement, augmenting team performance on complex infrastructure challenges.
 - Identified and resolved infrastructure vulnerabilities and application deployment issues through systematic troubleshooting and root cause analysis.
 - Collaborated with engineering, development, and security teams to architect optimal cloud solutions aligned with organizational objectives.
 - Implemented new cloud technologies (Entra ID, Key Vault, Defender for Cloud) and led team education initiatives on security and operational best practices.
@@ -169,8 +173,15 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Designed and implemented security analytics systems on Unix platforms for threat monitoring and incident detection.
 - Developed and deployed new security infrastructure systems enhancing organizational security posture.
 
+### IT Administrator (Managed Services / Multi-Client Support)
+**Epicenter** | ~2004 – 2007 (exact start/end dates and sequencing relative to other roles in this period **[NEEDS INPUT]**) — approx. 1 year in this role
+
+- Provided subscription-based, on-site IT infrastructure management and support for approximately 20 external client companies, covering the full range of IT administrative needs — servers, networking, printers, and client/end-user devices.
+- Acted as the on-site technical resource for each client engagement, diagnosing and resolving infrastructure and end-user issues across a variety of small-business environments.
+- Managed relationships and technical delivery across a multi-client, multi-environment support model (no formal metrics captured — client count only).
+
 ### Additional Experience
-**Rush, Epicenter, ISD, Ukrainian State Air Traffic Service Enterprise** | 2004 – 2007
+**Rush, ISD, Ukrainian State Air Traffic Service Enterprise** | 2004 – 2007
 
 - Unix/Linux server administration (FreeBSD, Linux), communications infrastructure, mail and firewall management.
 - Network design and support, local area networks, customer integration, testing software deployment (AIX).
@@ -211,3 +222,7 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Open gaps surfaced during tailoring (no experience confirmed yet): Kubernetes/EKS/AKS (confirmed as of Jul 2026 — no experience), Puppet, CloudFormation, Ansible (confirmed — Terraform/Bicep only), ELK/OpenSearch stack (confirmed — no experience), container security tools — Falco, OPA/Gatekeeper, image scanning, runtime protection (confirmed — no experience), AWS Security Specialist/OSCP/CKS/GCPN/CISSP certs (confirmed — none held), Azure Data Factory, Kubecost/OpenCost, CUR-based pipelines, Karpenter, Graviton, AWS Savings Plans/RIs, GitHub Actions, Go, PAM, SOAR, executive technical/financial roadmap presentation. Bash to be confirmed vs. existing Shell/Perl. OpenTelemetry/distributed tracing (confirmed as of Jul 2026 — no experience; existing tracing-adjacent work is Wireshark packet capture and Application Insights APM, not OpenTelemetry specifically). Chaos engineering/fault-injection testing (confirmed as of Jul 2026 — no experience). Formal production-readiness reviews partnering with software teams pre-launch (confirmed as of Jul 2026 — no experience; adjacent CI/CD deployment support exists but not a formal PRR process). Web3/crypto-native engineering (confirmed as of Jul 2026 — no experience). Formal SLO/SLI/error-budget frameworks (confirmed as of Jul 2026 — no experience; existing practice is threshold-based alerting and RCA via Sentinel/Log Analytics for security and Grafana/Prometheus/Zabbix for proactive infra monitoring, not formal SLO definitions). Jenkins, GitLab CI, and AWS CodePipeline (confirmed as of Jul 2026 — no direct experience; existing CI/CD tooling is TeamCity and Azure DevOps Pipelines only). CloudWatch (confirmed as of Jul 2026 — no experience; existing AWS work is EC2/S3/IAM at familiar level, monitoring done via Azure Monitor/Grafana/Prometheus/Zabbix, not CloudWatch).
 - GCP: confirmed exposure only (Jul 2026) — hands-on labs (Compute, IAM, etc.) completed as part of a DevOps training course; no production experience. Revisit if production GCP work is gained.
 - Government of Canada security clearance: confirmed as of Jul 2026 — does NOT currently hold Reliability or higher. Relevant for future gov't-adjacent postings; revisit if clearance is obtained.
+- RMM/PSA platforms (ConnectWise, NinjaOne, etc.) — confirmed as of Jul 2026, no experience. Relevant for MSP-context roles; revisit if gained.
+- DLP (Data Loss Prevention) and formal compliance framework work (SOC 2, HIPAA, HITRUST) — confirmed as of Jul 2026, no direct experience captured. Revisit if gained.
+- Intune/SCCM proficiency level and environment scale (device count) not yet specified — add if it becomes available.
+- Epicenter role exact dates and sequencing relative to Rush/ISD/Ukrainian State ATSE (all within 2004–2007) — add if it becomes available.
