@@ -1,0 +1,50 @@
+Using my master resume, search LinkedIn Jobs for relevant roles.
+
+Run two searches:
+1. Remote roles, any location, posted in the past week
+2. Hybrid and On-site roles, location = Ottawa, ON, posted in the past week
+
+From results, keep only postings from the last 2 days (check "X days ago" label) and 
+discard on-site roles outside Ottawa. Cap at 5 results total.
+
+For each matching job, open the posting and collect:
+- Company, Job Title, Location, Work format, Salary (if listed), Link, Date posted
+
+MATCH SCORING — For each job, score my master resume against its requirements:
+
+1. Extract every individual requirement from the posting (skills, tools, years of 
+   experience, domain knowledge, certifications, soft skills). If the posting labels 
+   tiers (e.g. Essential/Preferred/Bonus, Must-have/Nice-to-have), preserve those labels. 
+   If it doesn't, treat every listed requirement as equal-weight "must have."
+
+2. For each requirement, check it against my master resume only (no assumptions, no 
+   invented experience) and score it:
+   - Full match = 1.0 (direct, clearly equivalent experience)
+   - Partial match = 0.5 (adjacent/related experience, not the exact tool, scope, or depth)
+   - No match = 0.0 (nothing genuinely relevant)
+
+3. Calculate two percentages per job:
+   - Overall Match % = sum of scores ÷ number of requirements, across ALL requirements
+   - Must-Have Match % = sum of scores ÷ number of must-have/essential requirements only 
+     (or, if untiered, using only requirements phrased specifically/non-negotiably — 
+     named tools, exact years, "required," "hands-on" — vs. soft/generic asks)
+
+4. Identify any 0.0-scored requirement that is phrased specifically and technically 
+   (named tool, named methodology, exact years) — flag as "High Risk Gap."
+
+5. For every requirement scored 0.0 or 0.5, extract the specific skill/tool/keyword name 
+   (e.g. "Kubernetes", "GCP", "SLO/error budgets", "Loki/Tempo/Thanos") — this is separate 
+   from High Risk Gap, which only flags the 0.0s phrased specifically. This column captures 
+   ALL partial and missing keywords, for tracking what to learn.
+
+6. Assign a Verdict: Strong (must-have % 70+), Worth Applying (50–70%), or Weak Fit (<50%).
+
+Do not fabricate or round up my experience to close a gap. Missing = 0.0, not "close enough."
+
+OUTPUT — save as a single CSV file with these columns:
+Company, Job Title, Location, Work Format, Salary, Link, Date Posted, Overall Match %, 
+Must-Have Match %, Verdict, High Risk Gaps (semicolon-separated, or "None"), 
+Lacking Skills/Keywords (semicolon-separated list of all 0.0 and 0.5 scored keywords, 
+or "None")
+
+Sort the CSV by Must-Have Match % descending.

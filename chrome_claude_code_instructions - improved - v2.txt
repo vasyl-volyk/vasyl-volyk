@@ -1,0 +1,44 @@
+Using my master resume, search relevant roles in csv file.
+1. For each requirement, check it against my master resume only (no assumptions, no 
+   invented experience) and score it:
+   - Full match = 1.0 (direct, clearly equivalent experience)
+   - Partial match = 0.5 (adjacent/related experience, not the exact tool, scope, or depth)
+   - No match = 0.0 (nothing genuinely relevant)
+2. Calculate two percentages per job:
+   - Overall Match % = sum of scores ÷ number of requirements, across ALL requirements
+   - Must-Have Match % = sum of scores ÷ number of must-have/essential requirements only 
+     (or, if untiered, using only requirements phrased specifically/non-negotiably — 
+     named tools, exact years, "required," "hands-on" — vs. soft/generic asks)
+3.  Identify any 0.0-scored requirement that is phrased specifically and technically 
+   (named tool, named methodology, exact years) — flag as "High Risk Gap."
+4. For every requirement scored 0.0 or 0.5, extract the specific skill/tool/keyword name 
+   (e.g. "Kubernetes", "GCP", "SLO/error budgets", "Loki/Tempo/Thanos") — this is separate 
+   from High Risk Gap, which only flags the 0.0s phrased specifically. This column captures 
+   ALL partial and missing keywords, for tracking what to learn.
+5. Assign a Verdict: Strong (must-have % 70+), Worth Applying (50–70%), or Weak Fit (<50%).
+
+Do not fabricate or round up my experience to close a gap. Missing = 0.0, not "close enough."
+OUTPUT — save as a single CSV file original + the following columns:
+Overall Match %, Must-Have Match %, Verdict, High Risk Gaps (semicolon-separated, or "None"),  Lacking Skills/Keywords (semicolon-separated list of all 0.0 and 0.5 scored keywords, or "None")
+Sort the CSV by Must-Have Match % descending.
+
+In the result csv file I need only the following columns in corresponded order:
+applied - empty field (to be filled later manually)
+companyName
+title
+location
+employmentType
+salary
+applicantsCount
+link
+companyWebsite
+Overall Match %
+Must-Have Match %
+Verdict
+High Risk Gaps
+Lacking Skills/Keywords
+
+
+Once everything above completed, compose tailored resume for each role with verdict "Worth Applying" or "Strong" in PDF format.
+Template for file of tailored resume:
+<CompanyName>-<title>-Vasyl_Volyk.pdf
