@@ -1,4 +1,4 @@
-Using my master resume, search relevant roles in csv file.
+Using my master resume, search relevant roles in csv file (name it similar but replace "summary" with "scored").
 1. For each requirement, check it against my master resume only (no assumptions, no 
    invented experience) and score it:
    - Full match = 1.0 (direct, clearly equivalent experience)
