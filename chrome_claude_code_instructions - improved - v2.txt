@@ -17,6 +17,7 @@ Using my master resume, search relevant roles in csv file (name it similar but r
    ALL partial and missing keywords, for tracking what to learn.
 5. Assign a Verdict: Strong (must-have % 70+), Worth Applying (50–70%), or Weak Fit (<50%).
 
+Any jobs with requirement "bilingual" should be missed as I don't know french.
 Do not fabricate or round up my experience to close a gap. Missing = 0.0, not "close enough."
 OUTPUT — save as a single CSV file original + the following columns:
 Overall Match %, Must-Have Match %, Verdict, High Risk Gaps (semicolon-separated, or "None"),  Lacking Skills/Keywords (semicolon-separated list of all 0.0 and 0.5 scored keywords, or "None")
