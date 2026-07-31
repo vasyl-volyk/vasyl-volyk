@@ -1,26 +1,91 @@
-Using my master resume, search relevant roles in csv file (name it similar but replace "summary" with "scored").
-1. For each requirement, check it against my master resume only (no assumptions, no 
-   invented experience) and score it:
+Using my master resume, search relevant roles in csv file (name it similar but 
+replace "summary" with "scored").
+
+0. CORE FUNCTION EXCLUSION FILTER — apply this BEFORE scoring, for every job in 
+   the input file.
+
+   Classify the job title/core function as one of:
+   - Infrastructure/Cloud/DevOps/SRE (my target domain) → KEEP, proceed to scoring
+   - Software Engineering/Development (writing production application code as 
+     the PRIMARY job function) → EXCLUDE, do not include in output at all
+   - Other → KEEP, proceed to scoring
+
+   Signals that a job is Software Engineering/Development (exclude if title OR 
+   requirements clearly indicate this is the core function, not incidental):
+   - Title itself: "Software Developer," "Software Engineer," "Backend Engineer," 
+     "Full Stack Developer," "Application Developer," etc. (unless clearly a 
+     DevOps/Platform/SRE/Infrastructure Engineer title using "engineer" loosely)
+   - Requirements phrased as: "<N>+ years of [relevant/professional/industry] 
+     software development experience," "<N>+ years designing, building, and 
+     supporting backend systems in production," "strong CS fundamentals / 
+     data structures & algorithms," "ownership of a codebase," "shipping 
+     production code," or equivalent — where writing application code is 
+     described as the primary responsibility, not a supporting/automation skill.
+
+   My master resume shows zero years as a software developer/engineer by title 
+   or primary function — all coding (Python/FastAPI, PowerShell, Bicep, 
+   Terraform) was in service of infrastructure, automation, and DevOps work, 
+   never as the primary job function. Do not score these jobs, do not fabricate 
+   a fit, and do not include them in the output CSV — treat as if they were 
+   never in the input file.
+
+   If a job is borderline (e.g., "Platform Engineer" with some app-development 
+   requirements mixed in, or "DevOps Engineer" with heavier coding asks than 
+   usual), KEEP it and let it score normally — the exclusion is only for jobs 
+   whose primary function is clearly software development.
+
+0a. BILINGUAL EXCLUSION FILTER — also apply before scoring.
+
+   Exclude a job ONLY if bilingual/French is phrased as a mandatory requirement — 
+   e.g. "bilingual required," "must be fluent in French and English," "French 
+   language proficiency required," or it's listed among must-have/essential 
+   qualifications.
+
+   Do NOT exclude if bilingual/French is phrased as an asset, nice-to-have, or 
+   preferred — e.g. "bilingualism is an asset," "French is a plus," "preferred 
+   but not required." In these cases, KEEP the job, score it normally, and just 
+   note "Bilingual (asset, not required)" in Lacking Skills/Keywords rather than 
+   excluding it.
+
+   If unclear from the posting language whether it's mandatory or preferred, 
+   default to KEEP (do not exclude) and flag it in the exclusion report for me 
+   to sanity check.
+
+1. For each remaining job, for each requirement, check it against my master resume 
+   only (no assumptions, no invented experience) and score it:
    - Full match = 1.0 (direct, clearly equivalent experience)
    - Partial match = 0.5 (adjacent/related experience, not the exact tool, scope, or depth)
    - No match = 0.0 (nothing genuinely relevant)
+
 2. Calculate two percentages per job:
    - Overall Match % = sum of scores ÷ number of requirements, across ALL requirements
    - Must-Have Match % = sum of scores ÷ number of must-have/essential requirements only 
      (or, if untiered, using only requirements phrased specifically/non-negotiably — 
      named tools, exact years, "required," "hands-on" — vs. soft/generic asks)
-3.  Identify any 0.0-scored requirement that is phrased specifically and technically 
+
+3. Identify any 0.0-scored requirement that is phrased specifically and technically 
    (named tool, named methodology, exact years) — flag as "High Risk Gap."
+
 4. For every requirement scored 0.0 or 0.5, extract the specific skill/tool/keyword name 
    (e.g. "Kubernetes", "GCP", "SLO/error budgets", "Loki/Tempo/Thanos") — this is separate 
    from High Risk Gap, which only flags the 0.0s phrased specifically. This column captures 
    ALL partial and missing keywords, for tracking what to learn.
+
 5. Assign a Verdict: Strong (must-have % 70+), Worth Applying (50–70%), or Weak Fit (<50%).
 
-Any jobs with requirement "bilingual" should be missed as I don't know french.
 Do not fabricate or round up my experience to close a gap. Missing = 0.0, not "close enough."
+
+Before finalizing, report separately (not in the CSV, just in your reply to me):
+- How many jobs were excluded by the Core Function Exclusion Filter, and their titles.
+- How many jobs were excluded by the Bilingual Exclusion Filter (mandatory only), 
+  and their titles.
+- Any jobs flagged as unclear on the bilingual mandatory/preferred distinction.
+So I can sanity check that nothing relevant got filtered out by mistake.
+
 OUTPUT — save as a single CSV file original + the following columns:
-Overall Match %, Must-Have Match %, Verdict, High Risk Gaps (semicolon-separated, or "None"),  Lacking Skills/Keywords (semicolon-separated list of all 0.0 and 0.5 scored keywords, or "None")
+Overall Match %, Must-Have Match %, Verdict, High Risk Gaps (semicolon-separated, or "None"), 
+Lacking Skills/Keywords (semicolon-separated list of all 0.0 and 0.5 scored keywords, or "None")
+
 Sort the CSV by Must-Have Match % descending.
 
 In the result csv file I need only the following columns in corresponded order:
@@ -39,7 +104,8 @@ Verdict
 High Risk Gaps
 Lacking Skills/Keywords
 
+Once everything above completed, compose tailored resume for each role with verdict 
+"Worth Applying" or "Strong" in PDF format.
 
-Once everything above completed, compose tailored resume for each role with verdict "Worth Applying" or "Strong" in PDF format.
 Template for file of tailored resume:
 <CompanyName>-<title>-Vasyl_Volyk.pdf
