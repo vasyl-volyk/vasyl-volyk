@@ -73,6 +73,8 @@ replace "summary" with "scored").
 
 5. Assign a Verdict: Strong (must-have % 70+), Worth Applying (50–70%), or Weak Fit (<50%).
 
+6. if there is explicit salary (range) in "descriptionText" filed then put the info to "salary" column of output csv file.
+
 Do not fabricate or round up my experience to close a gap. Missing = 0.0, not "close enough."
 
 Before finalizing, report separately (not in the CSV, just in your reply to me):
