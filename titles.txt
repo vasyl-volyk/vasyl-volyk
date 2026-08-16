@@ -1,0 +1,82 @@
+Cloud Engineer
+Senior Cloud Engineer
+Azure Engineer
+Azure Cloud Engineer
+Cloud Infrastructure Engineer
+Infrastructure Engineer
+Senior Infrastructure Engineer
+IT Infrastructure Engineer
+Infrastructure and Operations Engineer
+Systems Engineer
+Senior Systems Engineer
+Windows Systems Engineer
+Systems Administrator
+Senior Systems Administrator
+Cloud Operations Engineer
+Cloud Support Engineer
+DevOps Engineer
+Senior DevOps Engineer
+Azure DevOps Engineer
+CI/CD Engineer
+Build and Release Engineer
+Release Engineer
+Infrastructure Automation Engineer
+Automation Engineer
+Infrastructure as Code Engineer
+Cloud Automation Engineer
+Platform Engineer
+Cloud Platform Engineer
+Site Reliability Engineer
+SRE
+Identity and Access Management Engineer
+IAM Engineer
+Identity Engineer
+Entra ID Engineer
+Azure AD Engineer
+Identity and Access Management Analyst
+IAM Automation Engineer
+Identity Operations Engineer
+Access Management Engineer
+Cloud FinOps Engineer
+FinOps Engineer
+Cloud Cost Engineer
+Cloud Cost Optimization Engineer
+Cloud Financial Operations Analyst
+Cloud Governance Engineer
+Azure Landing Zone Engineer
+Cloud Enablement Engineer
+Cloud Security Engineer
+Cloud Security Operations Engineer
+Azure Security Engineer
+Infrastructure Security Engineer
+Security Operations Engineer
+Security Engineer
+IT Security Engineer
+Modern Workplace Engineer
+Digital Workplace Engineer
+M365 Engineer
+Microsoft 365 Engineer
+Microsoft 365 Administrator
+Office 365 Engineer
+Endpoint Engineer
+Endpoint Management Engineer
+Intune Engineer
+Device Management Engineer
+Collaboration Engineer
+Virtualization Engineer
+Network and Systems Engineer
+Network Security Engineer
+Cloud Solutions Architect
+Azure Solutions Architect
+Infrastructure Architect
+Cloud Architect
+Technical Lead Infrastructure
+Infrastructure Team Lead
+Cloud Operations Manager
+Manager Cloud Operations
+IT Infrastructure Manager
+Infrastructure Manager
+IT Manager
+IT Operations Manager
+Manager Infrastructure and Cloud
+Technical Operations Manager

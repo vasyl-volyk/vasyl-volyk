@@ -33,6 +33,9 @@ Results-driven infrastructure specialist with hands-on experience designing, dep
 **Cloud & Multitenant Architecture**
 Large-scale Azure multitenant environments (5 tenants, 1,700 users, 500 servers); cross-tenant application deployment, automation, and Azure AD / Entra ID group & user syncing; VNets, NSGs, VPN/ExpressRoute, RBAC, Conditional Access. Microsoft Fabric (exposure/light use) — light, occasional hands-on use in current role to store and manage group, user, and approval data backing a self-service Power Platform portal (see Power Platform entry below). Hands-on AWS (familiar) — EC2, S3, and IAM policy configuration, used in a supporting capacity alongside the primary Azure environment. GCP (exposure) — hands-on labs (Compute, IAM, etc.) completed as part of a DevOps training course; no production experience.
 
+**On-Premises to Cloud Migration**
+Led and executed the full-scale migration of on-premises VMware virtual infrastructure to Microsoft Azure (expert level) — company transitioned to fully cloud-based infrastructure. Approximately 100 VMs audited, prepared, and migrated, spanning Active Directory domain controllers, file servers, database servers, and build/test servers among other workload types. Current role (Sitecore, 2021–present); both led the migration effort and executed it hands-on.
+
 **Cloud Cost Management / FinOps**
 Azure Cost Management + Billing (expert) — tag governance enforced via Azure Policy at the resource-group level, invoice section–based cost allocation, cost/resource owner identification for accountability, and proactive identification and remediation of unused/idle resources. Implemented initially as a dedicated project, then sustained as ongoing governance work across the multitenant environment; outcome was cost savings and improved right-targeting of spend to owners/teams (qualitative — no formal $ or % figure captured). Power BI (familiar) — connected data sources and built visuals (not full end-to-end reports) to support FinOps/cloud cost reporting, current role (Sitecore, 2021–present).
 
@@ -45,6 +48,9 @@ Microsoft Graph API for automated user onboarding/offboarding, lifecycle managem
 
 **Identity Governance & SSO (Entra ID)**
 Entra ID Privileged Identity Management (PIM) (proficient) — configured eligible role assignments, approval workflows, and role activation for privileged access, current role (Sitecore, 2021–present). Entra ID Access Reviews (proficient) — ran ad-hoc / on-request access review campaigns covering groups and access assignments (campaign-based, not a recurring/scheduled review program), current role (Sitecore, 2021–present). SAML / SSO for enterprise applications (proficient) — configured single sign-on for enterprise applications in Entra ID (application count not captured), current role (Sitecore, 2021–present). SCIM provisioning (proficient) — configured automated user/group provisioning from Entra ID into SaaS applications, current role (Sitecore, 2021–present). Entra ID Entitlement Management (access packages) — confirmed as of Aug 2026: NOT used; the equivalent business need is met by a custom-built self-service access-request portal (Power Apps + Power Automate — see Microsoft Power Platform competency).
+
+**On-Premises Identity Infrastructure (AD / GPO / LDAP / ADFS)**
+Group Policy Objects (GPO), LDAP, and Active Directory Federation Services (ADFS) (expert level) — daily, hands-on administration as core internal-network/identity infrastructure. Spans every Sitecore role held except the Senior DevOps Engineer role (2018–2020): Senior System Administrator (2007–2012), IT Administrator (2012–2015), Infrastructure & Cloud Engineer (2015–2017), and Senior Infrastructure & Cloud Engineer (2021–present).
 
 **Infrastructure & Systems**
 Windows file server share/NTFS permission restructuring (proficient) — redesigned folder hierarchies and NTFS-level access permissions on Windows file servers to limit access to authorized users, tied to specific projects and access-cleanup initiatives; outcome was reduced over-permissioning and cleaner access alignment (qualitative — no formal count of folders/shares/users captured). Spans multiple roles during Sitecore tenure (2007–present) — exact role(s)/years within that span not yet specified **[NEEDS INPUT]**.
@@ -60,7 +66,7 @@ Advanced PowerShell scripting; Bash scripting (proficient) — used for automati
 .NET / C# ecosystem (familiar) — supported CI/CD build and deployment pipelines and infrastructure (IIS, app pools, environment configuration) for Sitecore CMS, a large-scale .NET/C# product.
 
 **Network & Cloud Security**
-Enterprise-grade next-generation firewalls (Palo Alto Networks); network security architecture including hub-spoke topology (expert) — multiple VNets connected to a centralized Azure Firewall hub; Private Endpoints (expert) for securing qualifying Azure resources on the internal network; Azure Private DNS (expert) — internal DNS zone registration and internal IP resolution for privately-connected resources; Zero Trust security principles; Defender for Cloud, Key Vault, cryptography, PKI, identity federation, secure infrastructure hardening; SSH administration and SFTP/FTP file transfer, plus SSL/TLS certificate configuration (expert) — mixed use covering secure file transfers with vendors/partners, SSH access for Linux server administration, and SSL/TLS certificate configuration on services, current role (Sitecore, 2021–present); Wiz (familiar) — reviewing cloud vulnerability and misconfiguration findings and coordinating remediation, current role (Sitecore, 2021–present); SOC 2 Type 2 compliance — one of several key points of contact for the audit (not sole owner of the auditor relationship) across approximately 5 annual audit cycles (Sitecore, 2021–present); supported technical and infrastructure-related controls (access, logging, policy), coordinated evidence collection, and addressed auditor requests in partnership with relevant teams; packet capture and protocol analysis with Wireshark for firewall, DNS, and authentication-flow troubleshooting; new-site network design (LAN/WAN/VPN/firewall) for greenfield office buildout (Kuala Lumpur APAC office, 2015–2017). Cloudflare (familiar) — DNS and WAF configuration via admin console, current role (Sitecore, 2021–present).
+DHCP, routing, and TCP/IP networking fundamentals (expert level) — core, daily-use knowledge underpinning all firewall and network configuration work; applied across every role since 2004 (career-long, not role-specific). Enterprise-grade next-generation firewalls (Palo Alto Networks); network security architecture including hub-spoke topology (expert) — multiple VNets connected to a centralized Azure Firewall hub; Private Endpoints (expert) for securing qualifying Azure resources on the internal network; Azure Private DNS (expert) — internal DNS zone registration and internal IP resolution for privately-connected resources; Zero Trust security principles; Defender for Cloud, Key Vault, cryptography, PKI, identity federation, secure infrastructure hardening; SSH administration and SFTP/FTP file transfer, plus SSL/TLS certificate configuration (expert) — mixed use covering secure file transfers with vendors/partners, SSH access for Linux server administration, and SSL/TLS certificate configuration on services, current role (Sitecore, 2021–present); Wiz (familiar) — reviewing cloud vulnerability and misconfiguration findings and coordinating remediation, current role (Sitecore, 2021–present); SOC 2 Type 2 compliance — one of several key points of contact for the audit (not sole owner of the auditor relationship) across approximately 5 annual audit cycles (Sitecore, 2021–present); supported technical and infrastructure-related controls (access, logging, policy), coordinated evidence collection, and addressed auditor requests in partnership with relevant teams; packet capture and protocol analysis with Wireshark for firewall, DNS, and authentication-flow troubleshooting; new-site network design (LAN/WAN/VPN/firewall) for greenfield office buildout (Kuala Lumpur APAC office, 2015–2017). Cloudflare (familiar) — DNS and WAF configuration via admin console, current role (Sitecore, 2021–present).
 
 **ISP / Telecom Vendor Management**
 Evaluated and negotiated with ISP/telecom vendors across 7 country offices, leading consolidation from per-country ISP contracts to a single global ISP provider — improving pricing, standardizing SLA terms, and simplifying ongoing vendor management. Spans the Kuala Lumpur greenfield office buildout (2015–2017) and continues in the current role (Sitecore, 2021–present). Qualitative outcome; exact consolidation completion timeframe and formal SLA/cost metrics not yet captured — add if they become available **[NEEDS INPUT]**.
@@ -86,6 +92,11 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 ---
 
 ## Projects
+
+### On-Premises to Azure Cloud Migration
+- Led and executed (hands-on) the full-scale migration of the company's on-premises VMware virtual infrastructure to Microsoft Azure, resulting in the company becoming fully cloud-based.
+- Audited, prepared, and migrated approximately 100 VMs, spanning Active Directory domain controllers, file servers, database servers, build/test servers, and other workload types.
+- Timeframe: 2021–present (Senior Infrastructure & Cloud Engineer role, Sitecore).
 
 ### Kuala Lumpur APAC Office Build — IT Infrastructure from Scratch
 - Major contributor (alongside others) to standing up full IT infrastructure for Sitecore's new Kuala Lumpur development office as the company expanded into APAC, scaling to support 100+ staff.
@@ -132,11 +143,13 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 ### Senior Infrastructure & Cloud Engineer
 **Sitecore** | Jan 2021 – Present
 
+- Led and executed (hands-on) the full-scale migration of on-premises VMware virtual infrastructure to Microsoft Azure — approximately 100 VMs audited, prepared, and migrated, including Active Directory domain controllers, file servers, database servers, and build/test servers — resulting in the company becoming fully cloud-based.
 - Lead a 7-person infrastructure team managing a large-scale multitenant Azure environment spanning 5 tenants, 1,700 users, and 500 servers, overseeing cross-tenant application deployment, automation, and Azure AD group/user synchronization.
 - Implemented Azure cost governance as a FinOps practice (expert level): enforced resource-group tagging via Azure Policy, used invoice sections for cost allocation, identified resource/cost owners for accountability, and proactively identified unused/idle resources — initially delivered as a project, then sustained as ongoing governance work, driving cost savings and improved right-targeting of spend across the multitenant environment. Connected data sources and built Power BI visuals (familiar level) to support FinOps/cloud cost reporting.
 - Configured Entra ID Privileged Identity Management (PIM) (proficient level): eligible role assignments, approval workflows, and role activation for privileged access, reducing standing privilege across the environment.
 - Ran ad-hoc / on-request Entra ID Access Review campaigns (proficient level) to validate group membership and access assignments (campaign-based, not a recurring scheduled review program).
 - Configured SAML-based single sign-on for enterprise applications in Entra ID (proficient level) and set up SCIM provisioning (proficient level) to automate user/group provisioning into SaaS applications.
+- Administered Group Policy Objects (GPO), LDAP, and Active Directory Federation Services (ADFS) (expert level) as core, daily internal-network identity infrastructure.
 - Automated user lifecycle management (onboarding/offboarding) using Microsoft Graph API, standardizing account provisioning and de-provisioning across tenants and reducing manual identity administration.
 - Built and maintained a hybrid AD-to-Entra ID group synchronization validator (expert level) that compares user/group attributes across both directories and flags mismatched or out-of-sync records for remediation, ensuring identity data consistency across the hybrid environment.
 - Built REST API integrations connecting core infrastructure and business systems — including Workday, Expensify, OnTime, Meraki, and Palo Alto Networks — to automate reporting, streamline provisioning, and centralize network/security data.
@@ -175,6 +188,7 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Ensured adherence to ITIL principles and security standards across the cloud infrastructure lifecycle.
 - Provided and maintained the working environment for developers and technical specialists; regularly encountered new and unfamiliar tasks, requiring fast learning and quick delivery of working solutions.
 - Redesigned Windows file server folder hierarchies and NTFS-level permissions (proficient level) as part of ongoing and project-based access-cleanup efforts, limiting access to authorized personnel and reducing over-permissioning across file shares.
+- Applied DHCP, routing, and TCP/IP networking fundamentals (expert level) daily as the basis for all internal network and firewall configuration work.
 
 ### Senior DevOps Engineer
 **Sitecore** | Jan 2018 – Dec 2020
@@ -196,7 +210,7 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Evaluated and negotiated ISP/telecom vendor contracts as part of the office buildout and the broader multi-country ISP consolidation effort (see ISP/Telecom Vendor Management competency).
 - Occasional/basic use of Dell iDRAC / HPE iLO for out-of-band remote console access and hardware monitoring on physical servers during the office buildout (proficient level).
 - Automated daily operational tasks using PowerShell, improving efficiency and consistency across infrastructure teams.
-- Administered MS Active Directory across global network infrastructure; deployed and secured development environments.
+- Administered MS Active Directory across global network infrastructure, including Group Policy Objects (GPO), LDAP, and ADFS (expert level); deployed and secured development environments.
 
 ### IT Administrator
 **Sitecore** | Oct 2012 – Sep 2015
@@ -204,13 +218,13 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - Maintained enterprise IT infrastructure backbone supporting hundreds of users across multiple locations.
 - Ensured availability of critical infrastructure and applications through proactive maintenance and incident response.
 - Implemented IT policies, security controls, and compliance frameworks (ITIL standards).
-- Managed security systems, access controls, and infrastructure hardening initiatives.
+- Managed security systems, access controls, and infrastructure hardening initiatives, including Group Policy Objects (GPO), LDAP, and ADFS administration (expert level).
 - Set up and maintained backups for a MongoDB instance (familiar level) supporting a proof-of-concept project, over approximately 6 months. Earned a MongoDB certification at the time (now expired; exact name/date not recalled — add if recalled).
 
 ### Senior System Administrator
 **Sitecore** | 2007 – Oct 2012
 
-- Led infrastructure team; administered MS Active Directory, Windows server clusters (2003–2012), and workstation environments (XP/Vista/7).
+- Led infrastructure team; administered MS Active Directory, Windows server clusters (2003–2012), and workstation environments (XP/Vista/7), including Group Policy Objects (GPO), LDAP, and ADFS administration (expert level).
 - Configured and managed Hyper-V clusters and NAS storage (iSCSI), supporting business continuity.
 - Managed critical systems: Exchange mail servers (2003/2010), enterprise firewalls, MS SQL databases (2008/2010).
 - Designed and managed MS SQL database schemas (proficient level) supporting Exchange mail servers and other business systems.
@@ -320,3 +334,6 @@ AI-driven tools integrated into infrastructure operations and troubleshooting wo
 - **SAML / SSO for enterprise applications — confirmed as of Aug 2026:** proficient level — SSO configuration for enterprise applications in Entra ID, current role (Sitecore, 2021–present). Number of applications not captured — add if it becomes available. OIDC/OAuth2 app registration experience is confirmed separately (CSV Web Viewer project, Microsoft Graph integrations).
 - **SCIM provisioning — confirmed as of Aug 2026:** proficient level — automated user/group provisioning from Entra ID into SaaS applications, current role (Sitecore, 2021–present). Number of provisioned apps/users not captured — add if it becomes available.
 - **Entra ID Entitlement Management (access packages) — confirmed as of Aug 2026:** NO experience — not used. The equivalent business need is served by the custom-built self-service access-request portal (Power Apps + Power Automate, 1,500+ users, thousands of groups). Revisit if Entitlement Management is adopted. Related identity-governance items still not confirmed: Entra ID Lifecycle Workflows, third-party IGA/IdP platforms (SailPoint, Saviynt, Okta, Ping, ForgeRock), and dedicated PAM products (CyberArk, BeyondTrust, Delinea) — Entra ID PIM is the closest held equivalent.
+- **GPO, LDAP, ADFS — confirmed as of Aug 2026:** expert level — daily, hands-on administration across every Sitecore role except the Senior DevOps Engineer role (2018–2020): Senior System Administrator (2007–2012), IT Administrator (2012–2015), Infrastructure & Cloud Engineer (2015–2017), and Senior Infrastructure & Cloud Engineer (2021–present). Specific ADFS relying-party/claims-rule configuration detail and specific LDAP query/integration use cases not separately itemized — add if they become available.
+- **On-premises to Azure migration — confirmed as of Aug 2026:** expert level — led and executed hands-on the migration of ~100 VMware VMs to Azure (AD domain controllers, file servers, database servers, build/test servers, and other workload types), resulting in the company becoming fully cloud-based. Current role (Sitecore, 2021–present). Exact migration methodology/tooling used (e.g., Azure Migrate, manual re-platforming) and precise timeline within 2021–present not yet specified — add if it becomes available.
+- **DHCP, routing, TCP/IP — confirmed as of Aug 2026:** expert level — career-long (2004–present), applied daily across every role as the foundation for firewall and network configuration work. No role-specific scale/metrics captured — this is foundational, ongoing knowledge rather than a discrete project.

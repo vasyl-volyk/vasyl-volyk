@@ -98,16 +98,16 @@ location
 employmentType
 salary
 applicantsCount
-link
-companyWebsite
+url
 Overall Match %
 Must-Have Match %
 Verdict
 High Risk Gaps
 Lacking Skills/Keywords
+id
+sourceActor
 
-Once everything above completed, compose tailored resume for each role with verdict 
-"Worth Applying" or "Strong" in PDF format.
+Once everything above completed, compose tailored resume for each role with verdict "Worth Applying" or "Strong" in PDF format. Never add to resume any skill gap disclosure.
 
 Template for file of tailored resume:
 <CompanyName>-<title>-Vasyl_Volyk.pdf
