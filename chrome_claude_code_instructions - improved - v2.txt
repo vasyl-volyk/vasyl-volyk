@@ -63,8 +63,16 @@ replace "summary" with "scored").
      (or, if untiered, using only requirements phrased specifically/non-negotiably — 
      named tools, exact years, "required," "hands-on" — vs. soft/generic asks)
 
-3. Identify any 0.0-scored requirement that is phrased specifically and technically 
-   (named tool, named methodology, exact years) — flag as "High Risk Gap."
+3. Identify any requirement scored 0.0 or 0.5 that is phrased specifically and technically (named tool, named platform, named methodology, exact years)
+   and sits in the primary/must-have section of the posting (not a "nice to have") — flag as "High Risk Gap." Do not restrict this to 0.0 scores only;
+   a 0.5 built on cross-platform analogy on a headline requirement carries the same practical risk as a 0.0.
+
+3a. Cross-platform substitution flag. When a 0.5 score is given because the match comes from a different vendor/platform version of the same underlying
+    concept (e.g., Azure networking credited against an AWS-specific requirement; GitLab CI/CD credited against Azure DevOps experience; CyberArk credited against Entra PIM),
+    flag it separately as a "Platform Substitution" — regardless of the numeric score. List these in a new column, Platform Substitutions,
+    formatted as: <what was required> ← credited via <what I actually have>.
+    This applies whenever the named tool/platform itself is the differentiator in the posting
+    (i.e., the requirement wouldn't be satisfied by "I have the same skill on a different platform" in the eyes of an ATS keyword scan or a screener doing a quick pass) — not to generic soft skills or methodologies where platform doesn't matter.
 
 4. For every requirement scored 0.0 or 0.5, extract the specific skill/tool/keyword name 
    (e.g. "Kubernetes", "GCP", "SLO/error budgets", "Loki/Tempo/Thanos") — this is separate 
