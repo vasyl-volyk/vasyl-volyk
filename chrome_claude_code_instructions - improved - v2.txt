@@ -81,7 +81,7 @@ replace "summary" with "scored").
 
 5. Assign a Verdict: Strong (must-have % 70+), Worth Applying (50–70%), or Weak Fit (<50%).
 
-6. if there is explicit salary (range) in "descriptionText" filed then put the info to "salary" column of output csv file.
+6. Salary extraction — scan descriptionText for any explicit compensation mention (salary range, hourly rate, annual pay, compensation section) using regex or keyword search. Do NOT rely on the pre-existing salary column alone — it is often empty even when the description contains a figure. Extract the full amount/range as written (e.g. "CAD $85,000 - $100,000", "$120-130/hr C2C"). If nothing is found in either the column or the description, leave blank.
 
 Do not fabricate or round up my experience to close a gap. Missing = 0.0, not "close enough."
 
