@@ -218,7 +218,7 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Applied DHCP, routing, and TCP/IP networking fundamentals (expert level) daily as the basis for all internal network and firewall configuration work.
 
 ### Senior DevOps Engineer
-**Sitecore** | Jan 2018 – Dec 2020
+**Sitecore** | Jun 2019 – Dec 2020
 
 - Led design and delivery of CI/CD pipelines using TeamCity and Azure DevOps, enabling rapid and reliable software delivery for Sitecore CMS, a large-scale .NET/C# product.
 - Supported build, deployment, and infrastructure (IIS, app pools, environment configuration) for the .NET/C# CMS platform, working closely with development teams on release processes.
@@ -228,6 +228,18 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Supported development teams within Agile/Scrum/SAFe frameworks, enabling rapid software iteration and continuous improvement.
 - Collaborated with systems administrators and development teams to optimize deployment processes and infrastructure reliability.
 - Used the Sysinternals Suite (proficient level) and tcpdump/Wireshark (familiar/expert level respectively) for build-agent, deployment, and environment troubleshooting.
+
+### Senior DevOps Engineer
+**Sitecore** | Jan 2018 – May 2019
+
+- Developed automation and deployment utilities (experience in coding API, SOAP/RESTful)
+- Build CI/CD Pipeline
+- Maintained TFS GIT/TeamCity/SVN/ProGet serves
+- Maintained VMware/Hyper-v Infrastructures
+- Worked closely with sysadmins in reviewing internal network performance
+- Work closely with the development teams to support fast iteration software development.
+- Supporting development process according to Agile/Scrum/SAFe work principle.
+- Relied on solid systems network stack experience.
 
 ### Infrastructure & Cloud Engineer
 **Sitecore** | Sep 2015 – Dec 2017
@@ -269,20 +281,34 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Designed and implemented security analytics systems on Unix platforms for threat monitoring and incident detection.
 - Developed and deployed new security infrastructure systems enhancing organizational security posture.
 
-### IT Administrator (Managed Services / Multi-Client Support)
-**Epicenter** | ~2004 – 2007 (exact start/end dates and sequencing relative to other roles in this period **[NEEDS INPUT]**) — approx. 1 year in this role
+### System Administrator
+**Rush** | May 2005 –  Feb 2007
+
+- Administering Unix-servers (FreeBSD, Linux)
+- corporate mail server (Postfix)
+- firewalls, hardware routers, DLink gateway of Voice over IP.
+- Development and support of local computer network and phone network.
+
+### System Administrator
+**Epicenter** | Aug 2004 – May 2005
 
 - Provided subscription-based, on-site IT infrastructure management and support for approximately 20 external client companies, covering the full range of IT administrative needs — servers, networking, printers, and client/end-user devices.
 - Acted as the on-site technical resource for each client engagement, diagnosing and resolving infrastructure and end-user issues across a variety of small-business environments.
 - Managed relationships and technical delivery across a multi-client, multi-environment support model (no formal metrics captured — client count only).
 
-### Additional Experience
-**Rush, ISD, Ukrainian State Air Traffic Service Enterprise** | 2004 – 2007
+### System Engineer
+**ISD** | Apr 2004 – Aug 2004
 
-- Unix/Linux server administration (FreeBSD, Linux), communications infrastructure, mail and firewall management.
-- Network design and support, local area networks, customer integration, testing software deployment (AIX).
+- testing software deployment (AIX).
 - Developed automation tools using Bash, Shell, and Perl scripting (Bash — proficient level).
-- Used tcpdump (familiar level) for command-line packet capture and network troubleshooting on Unix/Linux systems.
+
+### Electronic engineer
+**ISD Ukrainian State Air Traffic Service Enterprise** | Jul 1999 – Mar 2004
+
+- Developing, supporting network and computer systems and software developying. 
+- Administrating of Windows 2000, Unix servers (FreeBSD).
+- Helpdesk
+
 
 ---
 
