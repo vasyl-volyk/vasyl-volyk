@@ -28,6 +28,18 @@ Results-driven infrastructure specialist with hands-on experience designing, dep
 
 ---
 
+## Work Locations by Role (confirmed Aug 2026)
+
+International career spanning three countries — Ukraine (1999–2017), Malaysia (2015–2019), Canada (2019–present).
+
+- **Ukraine** — Electronic Engineer (ISD Ukrainian State ATSE, 1999–2004), System Engineer (ISD, 2004), System Administrator (Epicenter, 2004–2005), System Administrator (Rush, 2005–2007), Security Engineer (Home Credit Bank, 2007), Senior System Administrator (Sitecore, 2007–2012), IT Administrator (Sitecore, 2012–2015).
+- **Malaysia** — Infrastructure & Cloud Engineer (Sitecore, 2015–2017, permanent on-site posting in Kuala Lumpur), Senior DevOps Engineer (Sitecore, Jan 2018 – May 2019).
+- **Canada** — Senior DevOps Engineer (Sitecore, Jun 2019 – Dec 2020), Senior Infrastructure & Cloud Engineer (Sitecore, Jan 2021 – Jul 2026).
+
+Note: recorded at country level. Exact cities for the Ukraine-based and Canada-based roles not separately captured — add if it becomes useful for a specific posting.
+
+---
+
 ## Core Technical Competencies (by category)
 
 **Cloud & Multitenant Architecture**
@@ -71,11 +83,11 @@ Advanced PowerShell scripting; VMware PowerCLI (proficient) — see Virtualizati
 .NET / C# ecosystem (familiar) — supported CI/CD build and deployment pipelines and infrastructure (IIS, app pools, environment configuration) for Sitecore CMS, a large-scale .NET/C# product.
 
 **Network & Cloud Security**
-DHCP, routing, and TCP/IP networking fundamentals (expert level) — core, daily-use knowledge underpinning all firewall and network configuration work; applied across every role since 2004 (career-long, not role-specific). Enterprise-grade next-generation firewalls (Palo Alto Networks); network security architecture including hub-spoke topology (expert) — multiple VNets connected to a centralized Azure Firewall hub; Private Endpoints (expert) for securing qualifying Azure resources on the internal network; Azure Private DNS (expert) — internal DNS zone registration and internal IP resolution for privately-connected resources; Zero Trust security principles; Defender for Cloud, Key Vault, cryptography, PKI, identity federation, secure infrastructure hardening; SSH administration and SFTP/FTP file transfer, plus SSL/TLS certificate configuration (expert) — mixed use covering secure file transfers with vendors/partners, SSH access for Linux server administration, and SSL/TLS certificate configuration on services, current role (Sitecore, 2021–present); Wiz (familiar) — reviewing cloud vulnerability and misconfiguration findings and coordinating remediation, current role (Sitecore, 2021–present); SOC 2 Type 2 compliance — one of several key points of contact for the audit (not sole owner of the auditor relationship) across approximately 5 annual audit cycles (Sitecore, 2021–present); supported technical and infrastructure-related controls (access, logging, policy), coordinated evidence collection, and addressed auditor requests in partnership with relevant teams; packet capture and protocol analysis with Wireshark for firewall, DNS, and authentication-flow troubleshooting, plus tcpdump (familiar) for command-line/Linux-side capture — applied across all roles (2004–present), with Wireshark the preferred tool on Windows machines and tcpdump used where a CLI/remote capture was the practical option; new-site network design (LAN/WAN/VPN/firewall) for greenfield office buildout (Kuala Lumpur APAC office, 2015–2017), including full end-to-end ownership of the enterprise wireless network design (expert level) — wireless controllers, access points, SSID/security policy — as part of the same buildout. Cloudflare (familiar) — DNS and WAF configuration via admin console, current role (Sitecore, 2021–present).
+DHCP, routing, and TCP/IP networking fundamentals (expert level) — core, daily-use knowledge underpinning all firewall and network configuration work; applied across every role since 2004 (career-long, not role-specific). Enterprise-grade next-generation firewalls (Palo Alto Networks); network security architecture including hub-spoke topology (expert) — multiple VNets connected to a centralized Azure Firewall hub; Private Endpoints (expert) for securing qualifying Azure resources on the internal network; Azure Private DNS (expert) — internal DNS zone registration and internal IP resolution for privately-connected resources; Zero Trust security principles; Defender for Cloud, Key Vault, cryptography, PKI, identity federation, secure infrastructure hardening; SSH administration and SFTP/FTP file transfer, plus SSL/TLS certificate configuration (expert) — mixed use covering secure file transfers with vendors/partners, SSH access for Linux server administration, and SSL/TLS certificate configuration on services, current role (Sitecore, 2021–present); Wiz (familiar) — reviewing cloud vulnerability and misconfiguration findings and coordinating remediation, current role (Sitecore, 2021–present); SOC 2 Type 2 compliance — one of several key points of contact for the audit (not sole owner of the auditor relationship) across approximately 5 annual audit cycles (Sitecore, 2021–present); supported technical and infrastructure-related controls (access, logging, policy), coordinated evidence collection, and addressed auditor requests in partnership with relevant teams; packet capture and protocol analysis with Wireshark for firewall, DNS, and authentication-flow troubleshooting, plus tcpdump (familiar) for command-line/Linux-side capture — applied across all roles (2004–present), with Wireshark the preferred tool on Windows machines and tcpdump used where a CLI/remote capture was the practical option; new-site network design (LAN/WAN/VPN/firewall) for greenfield office buildout (Kuala Lumpur APAC office, Malaysia, 2015–2017), including full end-to-end ownership of the enterprise wireless network design (expert level) — wireless controllers, access points, SSID/security policy — as part of the same buildout. Cloudflare (familiar) — DNS and WAF configuration via admin console, current role (Sitecore, 2021–present).
 Note: SD-WAN — confirmed as of Aug 2026, no experience with a dedicated SD-WAN overlay product (e.g., Cisco Viptela, VeloCloud, Fortinet, Azure Virtual WAN). Multi-site/office connectivity experience (including the Kuala Lumpur buildout) was delivered via standard site-to-site VPN and ExpressRoute, not a dedicated SD-WAN solution.
 
 **ISP / Telecom Vendor Management**
-Evaluated and negotiated with ISP/telecom vendors across 7 country offices, leading consolidation from per-country ISP contracts to a single global ISP provider — improving pricing, standardizing SLA terms, and simplifying ongoing vendor management. Spans the Kuala Lumpur greenfield office buildout (2015–2017) and continues in the current role (Sitecore, 2021–present). Qualitative outcome; exact consolidation completion timeframe and formal SLA/cost metrics not yet captured — add if they become available **[NEEDS INPUT]**.
+Evaluated and negotiated with ISP/telecom vendors across 7 country offices, leading consolidation from per-country ISP contracts to a single global ISP provider — improving pricing, standardizing SLA terms, and simplifying ongoing vendor management. Spans the Kuala Lumpur greenfield office buildout (Malaysia, 2015–2017) and continues in the current role (Sitecore, Canada, 2021–present). Qualitative outcome; exact consolidation completion timeframe and formal SLA/cost metrics not yet captured — add if they become available **[NEEDS INPUT]**.
 
 **Monitoring & Observability**
 Azure Monitor, Log Analytics, Application Insights, Microsoft Sentinel — used for security incident investigation and root cause analysis (Sentinel alert rules, Log Analytics queries); Grafana, Prometheus, Zabbix, SolarWinds, LogicMonitor — used for proactive infrastructure alerting to detect and address issues before impact; NOC/SOC-aligned monitoring and threat visibility. (Threshold-based alerting and RCA practice; not a formal SLO/SLI/error-budget framework.) HP OVO, SCOM, SiteScope — confirmed as of Aug 2026, no experience.
@@ -93,7 +105,10 @@ Exchange Online mailbox administration, Microsoft Teams, SharePoint, licensing m
 Python (FastAPI) web application development; OAuth2/Entra ID app registration and delegated Microsoft Graph permissions for secure authentication; Azure Blob Storage; Docker containerization; Azure Container Registry (ACR) and Azure App Service deployment; Azure DevOps YAML pipelines for automated build & deploy; Jinja2/HTML templating; TLS/SSL and custom domain configuration. Azure Queue Storage, Azure Table Storage — confirmed as of Aug 2026, no experience (Blob Storage only). Azure pub/sub messaging (Service Bus, Event Grid, Event Hub) — confirmed as of Aug 2026, no experience. Azure Cosmos DB — confirmed as of Aug 2026, no experience. Ruby, PHP — confirmed as of Aug 2026, no scripting/development experience with either. React / JavaScript frameworks — confirmed as of Aug 2026, no experience; existing web development experience is Python/FastAPI + Jinja2/HTML templating only.
 
 **Emerging Technologies & Leadership**
-AI-driven tools integrated into infrastructure operations and troubleshooting workflows, including GitHub Copilot agent mode in VS Code (proficient — regular part of workflow) for scripting (PowerShell, Terraform, Bicep), debugging/troubleshooting, and general coding across projects; Claude (Claude Code, Claude Desktop/Projects) (advanced) — used for software development, information gathering/scraping, and documentation improvement; n8n (familiar) — self-hosted workflow automation for personal projects, integrating a locally-hosted LLM for AI-driven email summarization (see Automation & Infrastructure as Code); leadership of a 7-person infrastructure team; company APAC expansion — major contributor to greenfield IT infrastructure buildout for a new 100+ staff development office (Kuala Lumpur); vendor management and equipment procurement; SAFe, ITIL, Agile/Scrum, Waterfall methodologies.
+AI-driven tools integrated into infrastructure operations and troubleshooting workflows, including GitHub Copilot agent mode in VS Code (proficient — regular part of workflow) for scripting (PowerShell, Terraform, Bicep), debugging/troubleshooting, and general coding across projects; Claude (Claude Code, Claude Desktop/Projects) (advanced) — used for software development, information gathering/scraping, and documentation improvement; n8n (familiar) — self-hosted workflow automation for personal projects, integrating a locally-hosted LLM for AI-driven email summarization (see Automation & Infrastructure as Code); leadership of a 7-person infrastructure team; company APAC expansion — major contributor to greenfield IT infrastructure buildout for a new 100+ staff development office (Kuala Lumpur, Malaysia); vendor management and equipment procurement; SAFe, ITIL, Agile/Scrum, Waterfall methodologies.
+
+**International & Cross-Border Experience**
+Worked across three countries over the course of the career — Ukraine (1999–2017), Malaysia (2015–2019, including a permanent on-site relocation for the Kuala Lumpur APAC office buildout), and Canada (2019–present). Supported globally distributed infrastructure and multi-office operations spanning 7 country offices (see ISP/Telecom Vendor Management). Languages: English (professional), Ukrainian (native), Russian (professional).
 
 ---
 
@@ -113,7 +128,7 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Authored the migration strategy and roadmap, then led and executed (hands-on) the full-scale migration of the company's on-premises VMware virtual infrastructure to Microsoft Azure, resulting in the company becoming fully cloud-based.
 - Audited, prepared, and migrated approximately 100 VMs, spanning Active Directory domain controllers, file servers, database servers, build/test servers, and other workload types.
 - Used VMware PowerCLI (proficient) for automation of the source estate — VM lifecycle operations, monitoring, and inventory/configuration reporting supporting migration audit and preparation.
-- Timeframe: 2021–present (Senior Infrastructure & Cloud Engineer role, Sitecore).
+- Timeframe: 2021–present (Senior Infrastructure & Cloud Engineer role, Sitecore, Canada).
 
 ### Kuala Lumpur APAC Office Build — IT Infrastructure from Scratch
 - Major contributor (alongside others) to standing up full IT infrastructure for Sitecore's new Kuala Lumpur development office as the company expanded into APAC, scaling to support 100+ staff.
@@ -121,6 +136,7 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Owned end-to-end design of the enterprise wireless network (expert level) — controllers, access points, SSID/security policy — as part of the office network buildout.
 - Included occasional/basic use of Dell iDRAC / HPE iLO for remote console access and hardware monitoring on physical servers during buildout and ongoing operations.
 - Evaluated and negotiated ISP/telecom vendor contracts as part of the office buildout, contributing to a broader consolidation effort across country offices (see ISP/Telecom Vendor Management competency).
+- **Posting type confirmed (Aug 2026): permanent on-site relocation to Kuala Lumpur, Malaysia — not remote work or periodic travel.** Remained based in Malaysia through the subsequent Senior DevOps Engineer role (Jan 2018 – May 2019).
 - Timeframe: 2015–2017 (Infrastructure & Cloud Engineer role) — exact start/end dates within this window **[NEEDS INPUT]**.
 
 ### CSV Web Viewer — Secure Azure Web Application
@@ -166,7 +182,7 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 ## Professional Experience
 
 ### Senior Infrastructure & Cloud Engineer
-**Sitecore** | Jan 2021 – Jul 2026
+**Sitecore** | Canada | Jan 2021 – Jul 2026
 
 - Authored the migration strategy/roadmap for, then led and executed (hands-on), the full-scale migration of on-premises VMware virtual infrastructure to Microsoft Azure — approximately 100 VMs audited, prepared, and migrated, including Active Directory domain controllers, file servers, database servers, and build/test servers — resulting in the company becoming fully cloud-based.
 - Automated VMware estate operations using PowerCLI (proficient level): VM lifecycle management (provisioning, reconfiguration, decommissioning), monitoring, inventory/configuration reporting and audit, and CI/CD and system integration — supporting both day-to-day virtualization operations and the migration audit/preparation effort.
@@ -218,7 +234,7 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Applied DHCP, routing, and TCP/IP networking fundamentals (expert level) daily as the basis for all internal network and firewall configuration work.
 
 ### Senior DevOps Engineer
-**Sitecore** | Jun 2019 – Dec 2020
+**Sitecore** | Canada | Jun 2019 – Dec 2020
 
 - Led design and delivery of CI/CD pipelines using TeamCity and Azure DevOps, enabling rapid and reliable software delivery for Sitecore CMS, a large-scale .NET/C# product.
 - Supported build, deployment, and infrastructure (IIS, app pools, environment configuration) for the .NET/C# CMS platform, working closely with development teams on release processes.
@@ -230,7 +246,7 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Used the Sysinternals Suite (proficient level) and tcpdump/Wireshark (familiar/expert level respectively) for build-agent, deployment, and environment troubleshooting.
 
 ### Senior DevOps Engineer
-**Sitecore** | Jan 2018 – May 2019
+**Sitecore** | Malaysia | Jan 2018 – May 2019
 
 - Developed automation and deployment utilities (experience in coding API, SOAP/RESTful)
 - Build CI/CD Pipeline
@@ -242,9 +258,9 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Relied on solid systems network stack experience.
 
 ### Infrastructure & Cloud Engineer
-**Sitecore** | Sep 2015 – Dec 2017
+**Sitecore** | Kuala Lumpur, Malaysia | Sep 2015 – Dec 2017
 
-- Major contributor to building the IT infrastructure for Sitecore's new Kuala Lumpur (APAC) development office from scratch as the company expanded into the APAC region, scaling to support 100+ staff — covering network design (LAN/WAN/VPN/firewall), server and Active Directory/domain setup, end-user workstation environment, vendor selection and procurement, and physical site/datacenter buildout coordination.
+- Major contributor to building the IT infrastructure for Sitecore's new Kuala Lumpur (APAC) development office from scratch as the company expanded into the APAC region, scaling to support 100+ staff — covering network design (LAN/WAN/VPN/firewall), server and Active Directory/domain setup, end-user workstation environment, vendor selection and procurement, and physical site/datacenter buildout coordination. Permanent on-site posting in Kuala Lumpur for the duration of the role (confirmed Aug 2026).
 - Owned end-to-end design of the enterprise wireless network (expert level) for the new office — controllers, access points, SSID/security policy.
 - Deployed and managed BitLocker drive encryption (proficient level) via Active Directory Group Policy (GPO), enforcing endpoint disk encryption with recovery-key escrow to Active Directory — the start of ongoing BitLocker ownership from 2015 to present.
 - Ensured high availability and performance of critical infrastructure and applications through proactive monitoring and optimization.
@@ -256,7 +272,7 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Administered MS Active Directory across global network infrastructure, including Group Policy Objects (GPO), LDAP, and ADFS (expert level), and troubleshot Kerberos authentication issues (familiar level); deployed and secured development environments.
 
 ### IT Administrator
-**Sitecore** | Oct 2012 – Sep 2015
+**Sitecore** | Ukraine | Oct 2012 – Sep 2015
 
 - Maintained enterprise IT infrastructure backbone supporting hundreds of users across multiple locations.
 - Ensured availability of critical infrastructure and applications through proactive maintenance and incident response.
@@ -266,7 +282,7 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Set up and maintained backups for a MongoDB instance (familiar level) supporting a proof-of-concept project, over approximately 6 months. Earned a MongoDB certification at the time (now expired; exact name/date not recalled — add if recalled).
 
 ### Senior System Administrator
-**Sitecore** | 2007 – Oct 2012
+**Sitecore** | Ukraine | 2007 – Oct 2012
 
 - Led infrastructure team; administered MS Active Directory, Windows server clusters (2003–2012), and workstation environments (XP/Vista/7), including Group Policy Objects (GPO), LDAP, and ADFS administration (expert level) and Kerberos authentication troubleshooting (familiar level).
 - Configured and managed Hyper-V clusters and NAS storage (iSCSI), supporting business continuity.
@@ -276,13 +292,13 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Applied the Sysinternals Suite (proficient level) and packet capture (Wireshark, tcpdump) as standard troubleshooting tooling across servers and workstations.
 
 ### Security Engineer
-**Home Credit Bank** | Mar 2007 – Oct 2007
+**Home Credit Bank** | Ukraine | Mar 2007 – Oct 2007
 
 - Designed and implemented security analytics systems on Unix platforms for threat monitoring and incident detection.
 - Developed and deployed new security infrastructure systems enhancing organizational security posture.
 
 ### System Administrator
-**Rush** | May 2005 –  Feb 2007
+**Rush** | Ukraine | May 2005 –  Feb 2007
 
 - Administering Unix-servers (FreeBSD, Linux)
 - corporate mail server (Postfix)
@@ -290,20 +306,20 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Development and support of local computer network and phone network.
 
 ### System Administrator
-**Epicenter** | Aug 2004 – May 2005
+**Epicenter** | Ukraine | Aug 2004 – May 2005
 
 - Provided subscription-based, on-site IT infrastructure management and support for approximately 20 external client companies, covering the full range of IT administrative needs — servers, networking, printers, and client/end-user devices.
 - Acted as the on-site technical resource for each client engagement, diagnosing and resolving infrastructure and end-user issues across a variety of small-business environments.
 - Managed relationships and technical delivery across a multi-client, multi-environment support model (no formal metrics captured — client count only).
 
 ### System Engineer
-**ISD** | Apr 2004 – Aug 2004
+**ISD** | Ukraine | Apr 2004 – Aug 2004
 
 - testing software deployment (AIX).
 - Developed automation tools using Bash, Shell, and Perl scripting (Bash — proficient level).
 
 ### Electronic engineer
-**ISD Ukrainian State Air Traffic Service Enterprise** | Jul 1999 – Mar 2004
+**ISD Ukrainian State Air Traffic Service Enterprise** | Ukraine | Jul 1999 – Mar 2004
 
 - Developing, supporting network and computer systems and software developying. 
 - Administrating of Windows 2000, Unix servers (FreeBSD).
@@ -342,7 +358,8 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - Publications, talks, patents, awards — none currently listed. Add if applicable.
 - Certification dates (skipped for now).
 - Team headcount for the 2007–2012 Senior System Administrator role (different era/team than the current 7-person team).
-- Kuala Lumpur APAC office build (2015–2017, Infrastructure & Cloud Engineer role): exact start/end dates within the 2015–2017 window not yet specified — add if it becomes available. Also add: whether this was a permanent on-site posting vs. remote/periodic travel, team size specifically on this project (vs. the 100+ staff the office grew to support), and any metrics (timeline to stand up the office, budget, downtime/incident figures) if they become available.
+- **Work locations — confirmed as of Aug 2026:** every role now carries a country. Ukraine: all pre-Sitecore roles (1999–2007) plus Senior System Administrator (2007–2012) and IT Administrator (2012–2015). Malaysia: Infrastructure & Cloud Engineer (2015–2017, permanent on-site posting in Kuala Lumpur) and Senior DevOps Engineer (Jan 2018 – May 2019). Canada: Senior DevOps Engineer (from Jun 2019) and Senior Infrastructure & Cloud Engineer (2021–present). Still open: exact cities for the Ukraine-based and Canada-based roles, and whether the Jan 2018 – May 2019 role was also based in Kuala Lumpur specifically or elsewhere in Malaysia.
+- Kuala Lumpur APAC office build (2015–2017, Infrastructure & Cloud Engineer role): exact start/end dates within the 2015–2017 window not yet specified — add if it becomes available. Posting type resolved Aug 2026 (permanent on-site relocation to Kuala Lumpur, not remote/periodic travel). Also add: team size specifically on this project (vs. the 100+ staff the office grew to support), and any metrics (timeline to stand up the office, budget, downtime/incident figures) if they become available.
 - Optional future metrics (left qualitative for now by choice): Terraform governance provisioning (counts of management groups/subscriptions/policies/role assignments) and Bicep VM provisioning (number of VMs, time saved per build). Documentation as Code metric captured (~100 pages migrated). AWS captured at familiar level (EC2, S3, IAM) — add scale/impact if it grows. Azure FinOps/cost governance captured (expert level, tagging/invoice sections/owner ID/idle resource cleanup) — add hard $ or % savings figure if it becomes available. Hub-spoke/Private Endpoints/Private DNS scale (number of VNets, endpoints, or zones) — add if it becomes available; currently qualitative only. On-call rotation captured at participant level (3-person rotation, ~weekly incidents) — add MTTR/noise-reduction figures if they become available, and note if role evolves to include designing the rotation/escalation policy itself. Rolling/canary deployment rollouts (familiar level, custom PowerShell scripting for VM/server updates) — add scale/frequency/incident-reduction metrics if they become available. AD-to-Entra ID reconciliation validator (expert level, reports + flags mismatches) — add scale (number of accounts/groups covered, frequency) if it becomes available. MS SQL schema design (proficient, 2007–2012) — add scale/specifics if recalled. SOC 2 audit participation (Sitecore) — scope now captured (one of several key points of contact, ~5 annual cycles, 2021–present, technical/infra controls + evidence coordination); revisit if role evolves toward sole ownership of the auditor relationship or toward leading expansion of Trust Services Criteria (e.g., Confidentiality, Availability) beyond Security.
 - GitOps (ArgoCD) — confirmed as of Jul 2026, exposure level only via personal/training labs; no production experience. Revisit if production experience is gained.
 - Open gaps surfaced during tailoring (no experience confirmed yet): Kubernetes/EKS/AKS (confirmed as of Jul 2026 — no experience, Docker only, no orchestrator of any kind), Helm (confirmed as of Jul 2026 — no experience, follows from no Kubernetes experience), Puppet, CloudFormation, Ansible (confirmed — Terraform/Bicep only; no adjacent config-management tool either — Puppet/Chef/Salt also not used, confirmed Aug 2026), ELK/OpenSearch stack (confirmed — no experience), container security tools — Falco, OPA/Gatekeeper, image scanning, runtime protection (confirmed — no experience), AWS Security Specialist/OSCP/CKS/GCPN/CISSP certs (confirmed — none held), Azure Data Factory, Synapse, Databricks, Jupyter Notebook (confirmed as of Jul 2026 — no hands-on experience; Fabric confirmed at light/occasional use), Kubecost/OpenCost, CUR-based pipelines, Karpenter, Graviton, AWS Savings Plans/RIs, GitHub Actions, Go, PAM, SOAR, executive technical/financial roadmap presentation. Bash confirmed as of Aug 2026 — proficient level, Rush/ISD role (2004–2007) alongside Shell/Perl. OpenTelemetry/distributed tracing (confirmed as of Jul 2026 — no experience; existing tracing-adjacent work is Wireshark packet capture and Application Insights APM, not OpenTelemetry specifically). Chaos engineering/fault-injection testing (confirmed as of Jul 2026 — no experience). Formal production-readiness reviews partnering with software teams pre-launch (confirmed as of Jul 2026 — no experience; adjacent CI/CD deployment support exists but not a formal PRR process). Web3/crypto-native engineering (confirmed as of Jul 2026 — no experience). Formal SLO/SLI/error-budget frameworks (confirmed as of Jul 2026 — no experience; existing practice is threshold-based alerting and RCA via Sentinel/Log Analytics for security and Grafana/Prometheus/Zabbix for proactive infra monitoring, not formal SLO definitions). Jenkins, GitLab CI, and AWS CodePipeline (confirmed as of Jul 2026 — no direct experience; existing CI/CD tooling is TeamCity and Azure DevOps Pipelines only). CloudWatch (confirmed as of Jul 2026 — no experience; existing AWS work is EC2/S3/IAM at familiar level, monitoring done via Azure Monitor/Grafana/Prometheus/Zabbix, not CloudWatch). Formal Master Data Management (MDM)/master data/reference data concepts (confirmed as of Jul 2026 — no experience beyond the AD-to-Entra ID reconciliation validator, which is attribute comparison/flagging, not a formal MDM discipline). Client-facing/consulting experience — note: the Epicenter role (~2004–2007) involved on-site IT support for ~20 external client companies, which is genuine client-facing experience; revisit any tailored resumes built before this note (e.g., the CluedIn Data Implementation Consultant resume) to reflect this if relevant. Formal data quality/governance rule configuration on a dedicated data platform (confirmed as of Jul 2026 — closest adjacent experience is Azure cost/tag governance and the AD-to-Entra ID reconciliation validator, not a data quality/mastering rules engine).
@@ -351,7 +368,7 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - RMM/PSA platforms (ConnectWise, NinjaOne, etc.) — confirmed as of Jul 2026, no experience. Relevant for MSP-context roles; revisit if gained.
 - DLP (Data Loss Prevention) and formal compliance framework work (HIPAA, HITRUST) — confirmed as of Jul 2026, no direct experience captured. SOC 2 experience is now captured in more detail (Sitecore audit participation — one of several key points of contact, ~5 annual cycles, technical controls implementation + evidence coordination for auditors; see Network & Cloud Security and Senior Infrastructure & Cloud Engineer role). Revisit HIPAA/HITRUST if gained.
 - Intune/SCCM proficiency level and environment scale (device count) not yet specified — add if it becomes available. Jamf (macOS) now captured: familiar level, ~500 devices, current role (2021–present). BitLocker device scale (number of encrypted endpoints) also not captured — same open item **[NEEDS INPUT]**.
-- Epicenter role exact dates and sequencing relative to Rush/ISD/Ukrainian State ATSE (all within 2004–2007) — add if it becomes available.
+- Epicenter role exact dates and sequencing relative to Rush/ISD/Ukrainian State ATSE (all within 2004–2007) — add if it becomes available. Country confirmed (Ukraine, Aug 2026).
 - Out-of-band server management confirmed as of Jul 2026: Dell iDRAC / HPE iLO, proficient level, occasional/basic use — spans KL office build (2015–2017) and current role (2021–present). Generic IPMI protocol and Redfish API specifically not separately confirmed — only vendor tools (iDRAC/iLO) used. Bare-metal provisioning at scale (racking, datacenter-wide hardware rollout, fleet-level BMC automation/scripting) not confirmed — revisit if gained.
 - Compliance automation platforms (Vanta, Drata, Secureframe) — confirmed as of Jul 2026, no experience. Sitecore's SOC 2 program details (tooling used to manage the audit, if any) not specified. Revisit if Vanta or similar platform experience is gained.
 - Google Workspace — confirmed as of Jul 2026, no experience. Existing enterprise collaboration experience is Microsoft 365 (Exchange Online, Teams, SharePoint) only. Revisit if gained.
@@ -402,7 +419,7 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 - **Sysinternals Suite — confirmed as of Aug 2026:** proficient level — routine Windows troubleshooting and diagnostics, applied across all roles (2004–present). Specific tools used (Process Explorer, Procmon, PsExec, Autoruns, etc.) not itemized — add if it becomes useful for a specific posting.
 - **tcpdump — confirmed as of Aug 2026:** familiar level — command-line packet capture across all roles (2004–present), used where CLI/Linux-side capture was the practical option; Wireshark was the preferred tool on Windows machines and remains the deeper capability (expert-adjacent, see Network & Cloud Security).
 - **DHCP, routing, TCP/IP — confirmed as of Aug 2026:** expert level — career-long (2004–present), applied daily across every role as the foundation for firewall and network configuration work. No role-specific scale/metrics captured — this is foundational, ongoing knowledge rather than a discrete project.
-- **Wireless network design (KL office buildout) — confirmed as of Aug 2026:** expert level — owned end-to-end design of the enterprise wireless network (controllers, access points, SSID/security policy) as part of the Kuala Lumpur office buildout, Infrastructure & Cloud Engineer role (2015–2017). No wireless design scope confirmed outside this project — revisit if additional wireless work is identified elsewhere in career history.
+- **Wireless network design (KL office buildout) — confirmed as of Aug 2026:** expert level — owned end-to-end design of the enterprise wireless network (controllers, access points, SSID/security policy) as part of the Kuala Lumpur office buildout, Infrastructure & Cloud Engineer role (Malaysia, 2015–2017). No wireless design scope confirmed outside this project — revisit if additional wireless work is identified elsewhere in career history.
 - **SD-WAN — confirmed as of Aug 2026:** NO experience with a dedicated SD-WAN overlay product (Cisco Viptela, VeloCloud, Fortinet, Azure Virtual WAN, etc.). Multi-site connectivity (including KL office buildout) was delivered via standard site-to-site VPN and ExpressRoute. Revisit if gained.
 - **Executive/senior-leadership architecture presentation (business cases, strategic options analyses) — confirmed as of Aug 2026:** experience presenting technical proposals and recommendations exists at the team/peer level (infrastructure team, cross-functional engineering/security/dev collaboration), but NOT confirmed at the senior-leadership/executive (VP/C-level) audience level specifically. This is a recurring requirement in architect-level postings (e.g., FINTRAC Infrastructure Architect E8) — revisit if executive-facing presentation experience is gained, or consider addressing via cover letter/interview narrative in the meantime.
 - **Government of Canada IT environment experience (Treasury Board policies, GC Digital Standards, departmental security/architecture governance)** — confirmed as of Aug 2026: NO experience. All professional experience to date is private-sector (Sitecore, Home Credit Bank, Epicenter, Rush/ISD). Relevant for GC-postings (e.g., FINTRAC) as an asset qualification gap, not essential — revisit if gained.
