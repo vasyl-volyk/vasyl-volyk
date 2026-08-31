@@ -166,7 +166,7 @@ Use this framing when a posting asks for "architecture strategy," "standards," o
 ## Professional Experience
 
 ### Senior Infrastructure & Cloud Engineer
-**Sitecore** | Jan 2021 – Present
+**Sitecore** | Jan 2021 – Jul 2026
 
 - Authored the migration strategy/roadmap for, then led and executed (hands-on), the full-scale migration of on-premises VMware virtual infrastructure to Microsoft Azure — approximately 100 VMs audited, prepared, and migrated, including Active Directory domain controllers, file servers, database servers, and build/test servers — resulting in the company becoming fully cloud-based.
 - Automated VMware estate operations using PowerCLI (proficient level): VM lifecycle management (provisioning, reconfiguration, decommissioning), monitoring, inventory/configuration reporting and audit, and CI/CD and system integration — supporting both day-to-day virtualization operations and the migration audit/preparation effort.
