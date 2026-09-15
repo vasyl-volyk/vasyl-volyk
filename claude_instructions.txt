@@ -81,7 +81,33 @@ replace "summary" with "scored").
 
 5. Assign a Verdict: Strong (must-have % 70+), Worth Applying (50–70%), or Weak Fit (<50%).
 
-6. Salary extraction — scan descriptionText for any explicit compensation mention (salary range, hourly rate, annual pay, compensation section) using regex or keyword search. Do NOT rely on the pre-existing salary column alone — it is often empty even when the description contains a figure. Extract the full amount/range as written (e.g. "CAD $85,000 - $100,000", "$120-130/hr C2C"). If nothing is found in either the column or the description, leave blank.
+6. Salary extraction — MANDATORY VERIFICATION STEP, run separately at the end.
+
+   Do not extract salary as part of reading through job descriptions. After 
+   scoring is complete and before the CSV is written, run a dedicated pass — 
+   as executed code, not manual notes — over every single row still lacking 
+   a salary figure:
+   
+   a. Check the pre-existing salary column first. If populated, use it as-is.
+   b. If empty, regex/keyword-scan the full descriptionText for currency 
+      patterns (CA$, US$, $, CAD, USD) combined with a number and, optionally, 
+      a range separator (-, –, "to") and a period unit (/hr, /yr, annually, 
+      per hour, per year).
+   c. Discard matches adjacent to non-salary terms (budget, stipend, bonus, 
+      reimbursement, allowance, target commission alone, equity only) — 
+      flag these as "mentioned but not a base salary figure" rather than 
+      silently keeping or silently dropping them.
+   d. Before finalizing the CSV, print/list every row where a salary was 
+      found in the description but the column was originally blank, so I 
+      can visually confirm the extraction pass actually ran on 100% of 
+      rows — not just the ones you happened to notice while reading.
+   
+   If you (Claude) already read a salary figure out loud earlier in the 
+   conversation but it isn't in the CSV, treat that as a signal the 
+   verification pass was skipped — go back and run it properly rather 
+   than patching the one row I asked about.
+
+   If nothing is found in either the column or the description, leave blank.
 
 Do not fabricate or round up my experience to close a gap. Missing = 0.0, not "close enough."
 
